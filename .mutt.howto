@@ -6,3 +6,167 @@ Instalation
 You can use
 
     # apt-get install mutt
+
+Set up steps
+============
+
+Mutt need some directories to cache message headers and bodies,
+and store certificates. Create than with
+
+    $ mkdir -p ~/.mutt/cache/headers
+    $ mkdir ~/.mutt/cache/bodies
+    $ touch ~/.mutt/certificates 
+
+The configuration file has to be called either ~/.muttrc or ~/.mutt/muttrc. 
+
+First commands
+==============
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+j          next-entry      move to the next entry
+k          previous-entry  move to the previous entry
+z          page-down       go to the next page
+Z          page-up         go to the previous page
+=          first-entry     jump to the first entry
+*          last-entry      jump to the last entry
+q          quit            exit the current menu
+?          help            list all keybindings for the current menu
+========== =============== =============================================
+
+Input field
+-----------
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+<Tab>      complete        complete filename or alias
+^G         n/a             abort
+<Return>   n/a             finish editing
+========== =============== =============================================
+
+Index
+=====
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+c                          change to a different mailbox
+d                          delete the current message
+F                          mark as important
+N                          mark message as new
+s                          save-message
+u                          undelete-message
+v                          view-attachments
+<Return>                   display-message
+<Tab>                      jump to the next new message
+@                          show the author's full e-mail address
+$                          save changes to mailbox
+/                          search
+ESC /                      search-reverse
+========== =============== =============================================
+
+Threaded Mode
+-------------
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+^D         delete-thread   delete all messages in the current thread
+^N         next-thread     jump to the start of the next thread
+^P         previous-thread jump to the start of the previous thread
+^R         read-thread     mark the current thread as read
+ESC t      tag-thread      toggle the tag on the current thread
+ESC v      collapse-thread toggle collapse for the current thread
+ESC V      collapse-all    toggle collapse for all threads
+P          parent-message  jump to parent message in thread
+========== =============== =============================================
+
+Index's Flags
+-------------
+
+==== ==================================================================
+Flag Mean
+==== ==================================================================
+D    message is deleted (is marked for deletion)
+d    message have attachments marked for deletion
+K    contains a PGP public key
+N    message is new
+O    message is old
+P    message is PGP encrypted
+r    message has been replied to
+S    message is PGP signed, and the signature is succesfully verified
+s    message is PGP signed
+!    message is flagged
+*    message is tagged
++    message is to you and you only
+T    message is to you, but also to or cc'ed to others
+C    message is cc'ed to you
+F    message is from you
+L    message is sent to a subscribed mailing list
+==== ==================================================================
+
+Pager
+=====
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+<Return>                   go down one line
+<Space>                    display the next page (or next message)
+-                          go back to the previous page
+n                          search for next match
+S                          skip beyond quoted text
+T                          toggle display of quoted text
+^                          jump to the top of the message
+$                          jump to the bottom of the message
+========== =============== =============================================
+
+Sending Mail
+============
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+m          compose         compose a new message
+r          reply           reply to sender
+g          group-reply     reply to all recipients
+L          list-reply      reply to mailing list address
+f          forward         forward message
+b          bounce          bounce (remail) message
+ESC k      mail-key        mail a PGP public key to someone
+========== =============== =============================================
+
+Editing mail
+------------
+
+========== =============== =============================================
+Shortcut   Command         Description
+========== =============== =============================================
+a          attach-file             attach a file
+A          attach-message          attach message(s) to the message
+ESC k      attach-key              attach a PGP public key
+D          detach-file             detach a file
+t          edit-to                 edit the To field
+ESC f      edit-from               edit the From field
+r          edit-reply-to           edit the Reply-To field
+c          edit-cc                 edit the Cc field
+b          edit-bcc                edit the Bcc field
+y          send-message            send the message
+s          edit-subject            edit the Subject
+f          edit-fcc                specify an ``Fcc'' mailbox
+p          pgp-menu                select PGP options
+q          quit                    quit (abort) sending the message
+w          write-fcc               write the message to a folder
+i          ispell                  check spelling
+^F         forget-passphrase       whipe PGP passphrase from memory
+========== =============== =============================================
+
+Further Reading
+===============
+
+[1] http://www.mutt.org/doc/manual/
+[2] http://mutt.blackfish.org.uk/
+[3] http://lifehacker.com/5574557/how-to-use-the-fast-and-powerful-mutt-email-client-with-gmail
+[4] http://learn.to/edit_messages

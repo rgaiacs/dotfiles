@@ -6,3 +6,15 @@ Instalation
 You can use
 
     # apt-get install weechat
+
+Set up scripts
+==============
+
+Before install the scripts you must update the list with
+
+    /script update
+
+After, install some scripts using
+
+    /script install buffers.pl
+    /script install iset.pl
