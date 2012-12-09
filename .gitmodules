@@ -1,0 +1,3 @@
+[submodule ".vim"]
+	path = .vim
+	url = https://github.com/r-gaia-cs/dotfiles_vim.git
