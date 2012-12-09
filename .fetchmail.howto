@@ -1,0 +1,14 @@
+This is the fetchmail how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install fetchmail
+
+Set up steps
+============
+
+If the program fetchmailconf is available, it will assist you in setting up
+and editing a fetchmailrc configuration.
