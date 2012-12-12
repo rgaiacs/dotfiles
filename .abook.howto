@@ -1,0 +1,48 @@
+This is the abook how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install abook
+
+But is high recommended that you download the last version using git
+
+    $  git clonegit://abook.git.sourceforge.net/gitroot/abook/abook
+
+and compile it
+
+    # ./configure --enable-vformat
+    # make
+    # make check
+    # make install
+
+Import contacts from Gmail
+==========================
+
+Download your contacts in the vcard format. With the contacts saved
+
+   $ abook --convert --informat vcard --infile contacts.vcf --outformat abook --outfile ~/.abook/addressbook
+
+Editing contacts
+================
+
+To edit contacts it high recomended that you use the abook interface after
+lauch abook with
+
+    $ abook
+
+Some times, for long editing you it suitable to use your favority text editor
+to change the `~/.abook/addressbook` file.
+
+If you want to delete a contact you can do it and the next time that you lauch
+abook it will correct the id of the contacts.
+
+Using inside mutt
+=================
+
+Add to .muttrc the following lines
+
+    set query_command="abook --mutt-query '%s'"     # Query abook adressbook
+    macro index,pager A "abook --add-email-quiet" "add the sender address to abook"

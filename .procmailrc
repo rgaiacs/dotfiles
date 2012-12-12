@@ -1,0 +1,23 @@
+PATH=/bin:/usr/bin:/usr/bin
+
+# MAILDIR is the folder where the emails will be store.
+# Procmail can't create the directory, you must do that.
+MAILDIR=$HOME/mail      
+
+# DEFAULT is the folder where emails that didn't match any rule will be store.
+DEFAULT=$MAILDIR/mbox   
+
+# LOGFILE is the file where the log will be keeped.
+LOGFILE=$MAILDIR/logr
+
+# Examples of filters
+
+# Filter by subject
+:0:
+* ^Subject.*Backup.*
+in-backups
+
+# Filter by sender
+:0:
+* ^Sender.*linux-br.*conectiva.*
+linux-brasil

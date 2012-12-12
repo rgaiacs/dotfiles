@@ -22,9 +22,20 @@ Text editor
 Email
 -----
 
+Before start configure any of the following programs take a look at the next
+subsection to choose the protocol most suitable for you.
+
 #. mutt
 
    For read emails.
+
+#. abook
+
+   For keep the email address.
+
+#. urlview
+
+   For handle urls with mutt.
 
 #. fetchmail
 
