@@ -41,6 +41,14 @@ subsection to choose the protocol most suitable for you.
 
    For retrieve the emails from a server and store it in the local machine.
 
+#. procmail
+
+   For get emails from fetchmail and filter it.
+
+#. msmtp
+
+   For send emails from more than one account.
+
 Choose IMAP or Pop
 ~~~~~~~~~~~~~~~~~~
 

@@ -2,13 +2,13 @@ PATH=/bin:/usr/bin:/usr/bin
 
 # MAILDIR is the folder where the emails will be store.
 # Procmail can't create the directory, you must do that.
-MAILDIR=$HOME/mail      
+MAILDIR=/home/raniere/mail      
 
 # DEFAULT is the folder where emails that didn't match any rule will be store.
-DEFAULT=$MAILDIR/mbox   
+DEFAULT=$MAILDIR/spool   
 
 # LOGFILE is the file where the log will be keeped.
-LOGFILE=$MAILDIR/logr
+LOGFILE=$MAILDIR/log
 
 # Examples of filters
 

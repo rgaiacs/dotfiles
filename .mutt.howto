@@ -19,6 +19,25 @@ and store certificates. Create than with
 
 The configuration file has to be called either ~/.muttrc or ~/.mutt/muttrc. 
 
+Imap
+----
+
+When use Imap protocol, all email are keep at the server.
+
+Take a look at `.muttrc.imap`. (You may which take a look at `.muttrc.pop3`
+to take some stuffs.)
+
+POP3
+----
+
+When use POP3 protocol, a copy of every email is downloaded to the local
+machine.
+
+If you choose to use POP3 is high recomended that you use fetchmail (to
+download the emails) and procmail to process it.
+
+Take a look at `.muttrc.pop3`.
+
 First commands
 ==============
 
@@ -170,3 +189,7 @@ Further Reading
 [2] http://mutt.blackfish.org.uk/
 [3] http://lifehacker.com/5574557/how-to-use-the-fast-and-powerful-mutt-email-client-with-gmail
 [4] http://learn.to/edit_messages
+[5] http://www.ucolick.org/~lharden/learnmutt.html
+[6] http://www.davep.org/mutt/muttrc/
+[7] http://www.earth.li/~huggie/mutt/muttrc.html
+[8] http://www.mattrope.com/computers/conf/muttrc.html
