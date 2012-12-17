@@ -86,6 +86,8 @@ $                          save changes to mailbox
 ESC /                      search-reverse
 ========== =============== =============================================
 
+You has to use the `s` key to migrate a message from one maildir to another.
+
 Threaded Mode
 -------------
 

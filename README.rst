@@ -82,6 +82,8 @@ IRC chatroom
 
 #. weechat
 
+#. bitlbee
+
 Feeds/RSS
 ---------
 

@@ -1,0 +1,159 @@
+:0:
+* ^(From|Cc|To).*libreplanet-br-sp@libreplanet.org
+lp-br-sp/
+
+:0:
+* ^(From|Cc|To).*psl-brasil@listas.softwarelivre.org
+psl-brasil/
+
+:0:
+* ^(From|Cc|To).*psls-nordeste@listas.softwarelivre.org
+psls-nordeste/
+
+:0:
+* ^(From|Cc|To).*psl-mg@listas.softwarelivre.org
+psl-mg/
+
+:0:
+* ^(From|Cc|To).*psl-pi@listas.softwarelivre.org
+psl-pi/
+
+:0:
+* ^(From|Cc|To).*nslcampinas@googlegroups.com
+nslcampinas/
+
+:0:
+* ^(From|Cc|To).*gpsl-unicamp@googlegroups.com
+gpsl/
+
+:0:
+* ^(From|Cc|To).*hsc@listas.tia.mat.br
+lhc/
+
+:0:
+* ^(From|Cc|To).*cc-community@lists.ibiblio.org
+creative_commons/
+
+:0:
+* ^(From|Cc|To).*edutex@tug.org
+tex/
+
+:0:
+* ^(From|Cc|To).*latex2html@tug.org
+tex/
+
+:0:
+* ^(From|Cc|To).*tex4ht@tug.org
+tex/
+
+:0:
+* ^(From|Cc|To).*latexusersgroup@googlegroups.com
+tex/
+
+:0:
+* ^(From|Cc|To).*mathjax-dev@googlegroups.com
+mathjax/
+
+:0:
+* ^(From|Cc|To).*mathjax-users@googlegroups.com
+mathjax/
+
+:0:
+* ^(From|Cc|To).*julia-dev@googlegroups.com
+julia/
+
+:0:
+* ^(From|Cc|To).*julia-users@googlegroups.com
+julia/
+
+:0:
+* ^(From|Cc|To).*python-brasil@googlegroups.com
+python/
+
+:0:
+* ^(From|Cc|To).*python-brasil@googlegroups.com
+python/
+
+:0:
+* ^(From|Cc|To).*sage-edu@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-devel@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-gsoc@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-notebook@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-release@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-support@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*abook-devel@lists.sourceforge.net
+abook/
+
+:0:
+* ^(From|Cc|To).*friendica@googlegroups.com
+friendica/
+
+:0:
+* ^(From|Cc|To).*friendica-dev@googlegroups.com
+friendica/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*cacounicamp@googlegroups.com
+caco/
+
+:0:
+* ^(From|Cc|To).*camecc-associados@googlegroups.com
+camecc/
+
+:0:
+* ^(From|Cc|To).*cursao-unicamp-2009@googlegroups.com
+cursao/
+
+:0:
+* ^(From|Cc|To).*fisicos-unicamp@googlegroups.com
+cursao/
+
+:0:
+* ^(From|Cc|To).*cc010_unicamp@googlegroups.com
+cc/
+
+:0:
+* ^(From|Cc|To).*bigdata-brazil@googlegroups.com
+bigdata/

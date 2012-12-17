@@ -1,30 +1,32 @@
 http://abjovenscientistas.blogspot.com/feeds/posts/default
-http://br.linux.feedsportal.com/c/34277/f/623547/index.rss
-http://creativecommons.org/weblog/feed/rss
-http://espacoliberdade.blog.br/feed
-http://blog.filipesaraiva.info/?feed=rss2
-http://feeds.feedburner.com/FlossForScience?format=xml
-http://feeds.feedburner.com/FreeBirdBlog
-http://gpsl.ic.unicamp.br/drupal/?q=rss.xml
-http://karolsingleworld.blogspot.com/feeds/posts/default
-http://feeds.feedburner.com/linuxtoday/linux
-http://lxer.com/module/newswire/headlines.rss
-http://olhapravoce.blogspot.com/feeds/posts/default
-http://feeds.feedburner.com/OpenCulture
-http://www.openeducation.net/feed/
-http://opensource.com/feed
-http://planet.mozilla.org/rss20.xml
-http://planet.sagemath.org/rss20.xml
-http://planet.scipy.org/rss20.xml
+http://br.linux.feedsportal.com/c/34277/f/623547/index.rss linux
+http://creativecommons.org/weblog/feed/rss freedom
+http://espacoliberdade.blog.br/feed linux
+http://blog.filipesaraiva.info/?feed=rss2 linux
+http://feeds.feedburner.com/FlossForScience?format=xml linux 
+http://feeds.feedburner.com/FreeBirdBlog linux friends
+http://gpsl.ic.unicamp.br/drupal/?q=rss.xml linux
+http://feeds.feedburner.com/linuxtoday/linux linux
+http://lxer.com/module/newswire/headlines.rss linux
+http://feeds.feedburner.com/OpenCulture freedom
+http://www.openeducation.net/feed/ freedom
+http://opensource.com/feed freedom
+http://planet.mozilla.org/rss20.xml mozilla
+http://planet.sagemath.org/rss20.xml python sage
+http://planet.scipy.org/rss20.xml python sage
+http://rss.slashdot.org/Slashdot/slashdot linux
+http://newsbeuter.wordpress.com/feed/ linux
+http://feeds.gawker.com/Lifehacker/full linux
+http://faif.us/feeds/cast-ogg/ freedom
 https://github.com/r-gaia-cs.private.atom?token=682d5b1db9628648ae40e52146c1cec7
-http://www.fsfla.org/svnwiki/blogs/lxo/xsvnwiki-atom/xsvnwiki-dir
-http://rss.slashdot.org/Slashdot/slashdot
-http://feeds.feedburner.com/TecEmOferta
-http://feeds.the-ebook-reader.com/feedburner/cmWU
 https://github.com/blog.atom
-http://feeds.feedburner.com/TudoEmTecnologia
+http://www.fsfla.org/svnwiki/blogs/lxo/xsvnwiki-atom/xsvnwiki-dir freedom
+http://chronicle.com/blogs/wiredcampus/feed ereader
+http://feeds.the-ebook-reader.com/feedburner/cmWU ereader
+http://feeds.feedburner.com/TudoEmTecnologia tec
+http://feeds.feedburner.com/TecEmOferta tec
 http://uevzero.blogspot.com/feeds/posts/default
-http://chronicle.com/blogs/wiredcampus/feed
-http://newsbeuter.wordpress.com/feed/
-http://feeds.gawker.com/Lifehacker/full
-http://faif.us/feeds/cast-ogg/
+http://softwarelivre.org/portal/feed freedom
+http://olhapravoce.blogspot.com/feeds/posts/default friends
+http://karolsingleworld.wordpress.com/feed/ friends
+http://karolsingleworld.blogspot.com/feeds/posts/default friends

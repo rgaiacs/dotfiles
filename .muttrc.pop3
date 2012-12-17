@@ -9,7 +9,7 @@ set mbox_type=Maildir
 # this variable to the value of the environment variable $MAIL if it is not
 # set.
 # The default value is /var/mail/user_name.
-set spoolfile="~/mail/spoll"
+set spoolfile="~/mail/spool"
 
 # This specifies the folder into which read mail in your `` $spoolfile''
 # folder will be appended.
@@ -23,17 +23,17 @@ set folder="~/mail/"
 set mask="!^\\.[^.]"
 # This specifies the file into which your outgoing messages should be
 # appended.
-set record="+.Sent"
+set record="+sent"
 # Mutt allows you to indefinitely `` postpone sending a message'' which you
 # are editing. When you choose to postpone a message, Mutt saves it in the
 # mailbox specified by this variable.
-set postponed="+.Drafts"
+set postponed="+drafts"
 
 # This command specifies folders which can receive mail and which will be
 # checked for new messages. By default, the main menu status bar displays how
 # many of these folders have new messages.
 mailboxes ! + `\
-for file in ~/mail/.*; do \
+for file in ~/mail/*; do \
 box=$(basename "$file"); \
 if [ ! "$box" = '.' -a ! "$box" = '..' -a ! "$box" = '.customflags' \
 -a ! "$box" = '.subscriptions' ]; then \
@@ -78,7 +78,7 @@ set use_from=yes
 set envelope_from=yes
 # Macro to use msmtp
 macro generic "<esc>1" ":set from=user01@host01 realname='User'"
-macro generic "<esc>1" ":set from=user02@host02 realname='User'"
+macro generic "<esc>2" ":set from=user02@host02 realname='User'"
 
 # you are subscribed to a mailing list
 source ~/.mutt/subscribed
