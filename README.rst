@@ -84,8 +84,20 @@ IRC chatroom
 
 #. bitlbee
 
-Feeds/RSS
----------
+Feed/RSS
+--------
 
 #. newsbeuter
 
+Get Feed url
+~~~~~~~~~~~~
+
+I write some Python scripts to get the url for the some sites. You can
+found this scripts at `.newsbeuter` and they are:
+
+#. `newsbeuter-fb.py`: This is a script to get the Facebook's time line
+updates for some profile. The origin of this script are found at
+http://ooiks.com/blog/how-to-2/get-facebook-fans-page-news-feed-rss-feed-atom-feed.
+
+#. `newsbeuter-ytb.py`: This is a script to get the uploads for some
+channel of Youtube. The origin of this script are found at http://www.youtube.com/t/rss_feeds and https://gdata.youtube.com/demo/index.html.

@@ -1,4 +1,24 @@
 :0:
+* ^(From|Cc|To).*info-gnu@gnu.org
+gnu/
+
+:0:
+* ^(From|Cc|To).*gnu-announce@gnu.org
+gnu/
+
+:0:
+* ^(From|Cc|To).*discuss@freeculture.org
+freeculture/
+
+:0:
+* ^(From|Cc|To).*libreplanet-discuss@libreplanet.org
+libreplanet/
+
+:0:
+* ^(From|Cc|To).*libreplanet-dev@libreplanet.org
+libreplanet/
+
+:0:
 * ^(From|Cc|To).*libreplanet-br-sp@libreplanet.org
 lp-br-sp/
 
@@ -75,19 +95,11 @@ python/
 python/
 
 :0:
-* ^(From|Cc|To).*sage-edu@googlegroups.com
-sage/
-
-:0:
 * ^(From|Cc|To).*sage-devel@googlegroups.com
 sage/
 
 :0:
-* ^(From|Cc|To).*sage-gsoc@googlegroups.com
-sage/
-
-:0:
-* ^(From|Cc|To).*sage-notebook@googlegroups.com
+* ^(From|Cc|To).*sage-support@googlegroups.com
 sage/
 
 :0:
@@ -95,8 +107,40 @@ sage/
 sage/
 
 :0:
-* ^(From|Cc|To).*sage-support@googlegroups.com
+* ^(From|Cc|To).*sage-notebook@googlegroups.com
 sage/
+
+:0:
+* ^(From|Cc|To).*sage-edu@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-nt@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-gsoc@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*sage-git@googlegroups.com
+sage/
+
+:0:
+* ^(From|Cc|To).*octave-maintainers@octave.org
+octave/
+
+:0:
+* ^(From|Cc|To).*maintainers@octave.org
+octave/
+
+:0:
+* ^(From|Cc|To).*help-glpk@gnu.org
+glpk/
+
+:0:
+* ^(From|Cc|To).*bug-glpk@gnu.org
+glpk/
 
 :0:
 * ^(From|Cc|To).*abook-devel@lists.sourceforge.net

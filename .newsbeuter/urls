@@ -1,7 +1,14 @@
 http://abjovenscientistas.blogspot.com/feeds/posts/default
 http://br.linux.feedsportal.com/c/34277/f/623547/index.rss linux
 http://creativecommons.org/weblog/feed/rss freedom
+http://questioncopyright.org/node/feed freedom
+http://feeds.feedburner.com/NinaPaleysBlog freedom
+https://www.eff.org/rss/updates.xml freedom
+http://lawgeek.typepad.com/lawgeek/index.rdf freedom
+http://wendy.seltzer.org/blog/feed freedom
+http://rss.slashdot.org/Slashdot/slashdotYourRightsOnline freedom
 http://espacoliberdade.blog.br/feed linux
+http://mediagoblin.org/news/index.xml linux freedom
 http://blog.filipesaraiva.info/?feed=rss2 linux
 http://feeds.feedburner.com/FlossForScience?format=xml linux 
 http://feeds.feedburner.com/FreeBirdBlog linux friends
@@ -11,9 +18,11 @@ http://lxer.com/module/newswire/headlines.rss linux
 http://feeds.feedburner.com/OpenCulture freedom
 http://www.openeducation.net/feed/ freedom
 http://opensource.com/feed freedom
+http://feeds.feedburner.com/okfn freedom
 http://planet.mozilla.org/rss20.xml mozilla
 http://planet.sagemath.org/rss20.xml python sage
 http://planet.scipy.org/rss20.xml python sage
+http://news.ycombinator.com/rss linux
 http://rss.slashdot.org/Slashdot/slashdot linux
 http://newsbeuter.wordpress.com/feed/ linux
 http://feeds.gawker.com/Lifehacker/full linux
@@ -30,3 +39,5 @@ http://softwarelivre.org/portal/feed freedom
 http://olhapravoce.blogspot.com/feeds/posts/default friends
 http://karolsingleworld.wordpress.com/feed/ friends
 http://karolsingleworld.blogspot.com/feeds/posts/default friends
+http://gdata.youtube.com/feeds/base/users/TEDxYouth/uploads?alt=rss&orderby=published
+http://gdata.youtube.com/feeds/base/users/TEDtalksDirector/uploads?alt=rss&orderby=published

@@ -1,3 +1,8 @@
+subscribe info-gnu@gnu.org
+subscribe gnu-announce@gnu.org
+subscribe discuss@freeculture.org
+subscribe libreplanet-discuss@libreplanet.org
+subscribe libreplanet-dev@libreplanet.org
 subscribe libreplanet-br-sp@libreplanet.org 
 subscribe psl-brasil@listas.softwarelivre.org
 subscribe psls-nordeste@listas.softwarelivre.org
@@ -19,12 +24,18 @@ subscribe mathjax-users@googlegroups.com
 subscribe julia-dev@googlegroups.com
 subscribe julia-users@googlegroups.com
 subscribe python-brasil@googlegroups.com
-subscribe sage-edu@googlegroups.com
 subscribe sage-devel@googlegroups.com
-subscribe sage-gsoc@googlegroups.com
-subscribe sage-notebook@googlegroups.com
-subscribe sage-release@googlegroups.com
 subscribe sage-support@googlegroups.com
+subscribe sage-release@googlegroups.com
+subscribe sage-notebook@googlegroups.com
+subscribe sage-edu@googlegroups.com
+subscribe sage-nt@googlegroups.com
+subscribe sage-gsoc@googlegroups.com
+subscribe sage-git@googlegroups.com
+subscribe octave-maintainers@octave.org
+subscribe maintainers@octave.org
+subscribe help-glpk@gnu.org
+subscribe bug-glpk@gnu.org
 
 subscribe abook-devel@lists.sourceforge.net
 
