@@ -39,6 +39,10 @@ psl-mg/
 psl-pi/
 
 :0:
+* ^(From|Cc|To).*flisol-br@listas.softwarelivre.org
+flisol/
+
+:0:
 * ^(From|Cc|To).*nslcampinas@googlegroups.com
 nslcampinas/
 

@@ -7,12 +7,11 @@ https://www.eff.org/rss/updates.xml freedom
 http://lawgeek.typepad.com/lawgeek/index.rdf freedom
 http://wendy.seltzer.org/blog/feed freedom
 http://rss.slashdot.org/Slashdot/slashdotYourRightsOnline freedom
-http://espacoliberdade.blog.br/feed linux
 http://mediagoblin.org/news/index.xml linux freedom
 http://blog.filipesaraiva.info/?feed=rss2 linux
 http://feeds.feedburner.com/FlossForScience?format=xml linux 
 http://feeds.feedburner.com/FreeBirdBlog linux friends
-http://gpsl.ic.unicamp.br/drupal/?q=rss.xml linux
+http://gpsl.ic.unicamp.br/site/?q=rss.xml linux
 http://feeds.feedburner.com/linuxtoday/linux linux
 http://lxer.com/module/newswire/headlines.rss linux
 http://feeds.feedburner.com/OpenCulture freedom
@@ -30,14 +29,45 @@ http://faif.us/feeds/cast-ogg/ freedom
 https://github.com/r-gaia-cs.private.atom?token=682d5b1db9628648ae40e52146c1cec7
 https://github.com/blog.atom
 http://www.fsfla.org/svnwiki/blogs/lxo/xsvnwiki-atom/xsvnwiki-dir freedom
+http://readium.org/rss.xml ereader
+http://idpf.org/rss.xml ereader
 http://chronicle.com/blogs/wiredcampus/feed ereader
 http://feeds.the-ebook-reader.com/feedburner/cmWU ereader
 http://feeds.feedburner.com/TudoEmTecnologia tec
-http://feeds.feedburner.com/TecEmOferta tec
 http://uevzero.blogspot.com/feeds/posts/default
 http://softwarelivre.org/portal/feed freedom
 http://olhapravoce.blogspot.com/feeds/posts/default friends
 http://karolsingleworld.wordpress.com/feed/ friends
 http://karolsingleworld.blogspot.com/feeds/posts/default friends
-http://gdata.youtube.com/feeds/base/users/TEDxYouth/uploads?alt=rss&orderby=published
-http://gdata.youtube.com/feeds/base/users/TEDtalksDirector/uploads?alt=rss&orderby=published
+http://gdata.youtube.com/feeds/base/users/InfinitelyGalactic/uploads youtube linux
+http://gdata.youtube.com/feeds/base/users/nixiedoeslinux/uploads youtube linux
+http://gdata.youtube.com/feeds/base/users/twildottv/uploads youtube linux
+http://gdata.youtube.com/feeds/base/users/Mozilla/uploads youtube mozilla
+http://gdata.youtube.com/feeds/base/users/mozillians/uploads youtube mozilla
+http://gdata.youtube.com/feeds/base/users/TEDtalksDirector/uploads youtube TED
+http://gdata.youtube.com/feeds/base/users/TEDxTalks/uploads youtube TED
+http://gdata.youtube.com/feeds/base/users/TEDxYouth/uploads youtube TED
+http://gdata.youtube.com/feeds/base/users/TEDEducation/uploads youtube TED
+http://gdata.youtube.com/feeds/base/users/trailers/uploads youtube movies
+http://gdata.youtube.com/feeds/base/users/ClevverMovies/uploads youtube movies
+http://www.facebook.com/feeds/page.php?format=atom10&id=83012368982 facebook informatica
+http://www.facebook.com/feeds/page.php?format=atom10&id=141453935911808 facebook informatica
+http://www.facebook.com/feeds/page.php?format=atom10&id=112664978806221 facebook informatica
+http://www.or-exchange.com/feeds/rss or
+http://feeds.feedburner.com/mutgamb?format=xml
+https://github.com/isf.atom github
+https://github.com/panaggio.atom github
+https://github.com/barraponto.atom github
+https://github.com/lucchesi.atom github
+https://github.com/abelsiqueira.atom github
+https://github.com/gerson23.atom github
+https://github.com/guilherme-pg.atom github
+https://github.com/flaviobarros.atom github
+https://github.com/cacounicamp.atom github
+https://github.com/schacon.atom github
+http://dailydevtips.com/feed/
+http://libreplanet.org/w/api.php?action=feedwatchlist&allrev=allrev&wlowner=Raniere&wltoken=fd55623ed232929ab9ba66d1982404683c4b1242&feedformat=atom
+http://www.comunidadelinuxindaiatuba.org/feeds/posts/default linux
+http://www.facebook.com/feeds/page.php?format=atom10&id=209803832591
+http://blog.wikimedia.org/feed/
+http://gowers.wordpress.com/feed/

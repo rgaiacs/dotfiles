@@ -101,3 +101,8 @@ http://ooiks.com/blog/how-to-2/get-facebook-fans-page-news-feed-rss-feed-atom-fe
 
 #. `newsbeuter-ytb.py`: This is a script to get the uploads for some
 channel of Youtube. The origin of this script are found at http://www.youtube.com/t/rss_feeds and https://gdata.youtube.com/demo/index.html.
+
+Newsreader (Usenet)
+-------------------
+
+#. slrn

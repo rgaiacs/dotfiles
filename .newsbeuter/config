@@ -6,3 +6,16 @@ browser "firefox %u % &"
 # If enabled, all feeds will be automatically reloaded at start up and then
 # continuously after a certain time has passed (see reload-time).
 auto-reload yes
+
+# If set to yes, then for all feed items with no content but with a link, the
+# link is downloaded and the result used as content instead. This may
+# significantly increase the download times of "empty" feeds.
+# download-full-page yes 
+
+# If set, then user errors (e.g. errors regarding defunct RSS feeds) will be
+# logged to this file.
+error-log "~/.newsbeuter/error.log" 
+
+# If set to a non-zero-length string, this value will be used as HTTP
+# User-Agent header for all HTTP requests. 
+user-agent "Mozilla/5.001 (windows; U; NT4.0; en-US; rv:1.0) Gecko/25250101"

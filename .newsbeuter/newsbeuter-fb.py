@@ -17,23 +17,30 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 def fb_atom(fbid):
     """Return the url for the atom format."""
+    if fbid is None:
+        raise TypeError("fbid can't be None")
     return "http://www.facebook.com/feeds/page.php?format=atom10&id={0}".format(fbid)
 
 def fb_rss(fbid):
     """Return the url for the rss format."""
-    return "http://www.facebook.com/feeds/page.php?format=rss20&id= {0}".format(fbid)
+    if fbid is None:
+        raise TypeError("fbid can't be None")
+    return "http://www.facebook.com/feeds/page.php?format=rss20&id={0}".format(fbid)
 
 def get_fbid(name):
     """Return the Facebook ID for the give name."""
     import urllib.request
     import re
+    fbid = None
     f = urllib.request.urlopen("https://www.facebook.com/{0}".format(name))
     for s in f.readlines():
         m = re.search(b'ajaxify="([^ ]*)" ', s)
         if m:
-            fbid = re.search(b'set=a\.\d*\.\d*\.(\d*)', m.group(1))
-            break
-    return fbid.group(1).decode()
+            ajaxify = re.search(b'set=a\.\d*\.\d*\.(\d*)', m.group(1))
+            if ajaxify:
+                fbid = ajaxify.group(1).decode()
+                break
+    return fbid
 
 if __name__ == "__main__":
     """Call the url retrieve from the command line interpreter. ::
