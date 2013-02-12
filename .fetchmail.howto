@@ -14,6 +14,17 @@ To check if you have the certificates you need use
 
     $ openssl s_client -connect host:port
 
+Install certificates
+--------------------
+
+These steps are taken from /usr/share/doc/ca-certificates/README.Debian.
+
+#. Put CA certificates in /usr/local/share/ca-certificates/, and NOT the
+   system directory /usr/share/ca-certificates/.
+
+#. Run update-ca-certificates to update the compiled list of
+   CA certificates.
+
 Set up steps
 ============
 

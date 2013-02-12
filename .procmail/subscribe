@@ -59,8 +59,16 @@ lhc/
 creative_commons/
 
 :0:
+* ^(From|Cc|To).*okfn-br@lists.okfn.org
+okfn/
+
+:0:
 * ^(From|Cc|To).*edutex@tug.org
 tex/
+
+:0:
+* ^(From|Cc|To).*vim-latex-devel@lists.sourceforge.net
+vim/
 
 :0:
 * ^(From|Cc|To).*latex2html@tug.org
@@ -91,7 +99,7 @@ julia/
 julia/
 
 :0:
-* ^(From|Cc|To).*python-brasil@googlegroups.com
+* ^(From|Cc|To).*edu-sig@python.org
 python/
 
 :0:
