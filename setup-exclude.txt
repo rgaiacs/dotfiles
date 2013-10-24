@@ -1,0 +1,4 @@
+README
+setup.sh
+setup-exclude.txt
+.git
