@@ -1,0 +1,7 @@
+This is my dot files.
+
+To setup it use
+
+    $ ./setup.sh
+
+It will create (update) a symbolic link in your home directory.
