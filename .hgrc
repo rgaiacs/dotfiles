@@ -1,0 +1,14 @@
+# Alias
+glog = log -G
+qq = qqueue
+
+[ui]
+username = Raniere Silva <raniere@ime.unicamp.br>
+editor = vim
+style = compact
+
+[extensions]
+# Enable the Mercurial queue extension.
+hgext.mq =
+color = 
+graphlog = 
