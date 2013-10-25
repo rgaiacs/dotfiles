@@ -1,0 +1,24 @@
+[user]
+	name = Raniere Silva
+	email = raniere@ime.unicamp.br
+[alias]
+        st = status
+        ck = checkout
+        lg = log --oneline --graph --decorate
+        lgb = log --oneline --graph --decorate --branches
+        lgm = log --oneline --graph --decorate --merges
+        lga = log --oneline --graph --decorate --all
+        d = diff
+        df = diff --name-only
+        dw = diff --word-diff
+        shw = show --word-diff
+        shn = show --name-only
+[core]
+	editor = vim
+	excludesfile = /home/raniere/.gitignore_global
+	whitespace = trailing-space,space-before-tab
+	pager = less -+S
+[color]
+	ui = true
+[color "diff"]
+	whitespace = red reverse
