@@ -2,7 +2,7 @@
 #
 # Setup the dot files
 
-for f in $(ls -A | grep -v -F -f setup-exclude.txt)
+for f in $(ls -A | grep -v -E -f setup-exclude.txt)
 do
     # Create symbolic link to files
     ln -v -f -s ${PWD}/$f ~/$f;

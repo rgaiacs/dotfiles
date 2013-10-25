@@ -1,4 +1,6 @@
+.git$
+AUTHORS
+COPYING
 README
-setup.sh
 setup-exclude.txt
-.git
+setup.sh
