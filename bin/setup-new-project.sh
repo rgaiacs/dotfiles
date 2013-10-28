@@ -36,7 +36,9 @@ mkdir doc
 # front of the file and identify the version they pertain to. Don’t discard old
 # items; leave them in the file after the newer items. This way, a user
 # upgrading from any previous version can see what is new.
-touch NEWS
+#
+# For this file you can use git-shortlog and date.
+touch -a NEWS
 
 # create ChangeLog file
 #
@@ -49,17 +51,23 @@ touch NEWS
 # and who they came from.
 #
 # This have been deprecated because of control version system.
-#touch ChangeLog
+#touch -a ChangeLog
 
 # create README file
 #
 # This is the first file an installer should look at and fully read after
 # unpacking a distribution and prior to configuring it. All other documentation
 # files should be referred to, directly or indirectly, from the README file.
-touch README
+touch -a README
+echo "<PROJECT NAME>" >> README
+echo "==============" >> README
+
+# create INSTALL file
+touch -a INSTALL
 
 # create AUTHORS file
-touch AUTHORS
+touch -a AUTHORS
+echo "${USER} <${USER}@localhost>" >> AUTHORS
 
 # create THANKS file
 #
@@ -67,7 +75,14 @@ touch AUTHORS
 # There are too many of them. The only people thanked are those who do larger
 # amounts of work. However, if you find it is OK to thank them all, that is OK
 # (letter from Richard, 1995-09-20).
-touch THANKS
+touch -a THANKS
+echo "Many people further contributed to <PROJECT NAME> by reporting problems," >> THANKS
+echo "suggesting various improvements or submitting actual code. Here is a" >> THANKS
+echo "list of these people. Help me keep it complete and exempt of errors." >> THANKS
+
+# create CONTRIBUTING
+touch -a CONTRIBUTING
+echo "Just mail to one of the authors." >> CONTRIBUTING
 
 echo "WARNING: You still need to create a COPYING file. For that"
 echo "you can use lice."
