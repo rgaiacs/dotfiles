@@ -1,4 +1,7 @@
 .git$
+.gitignore$
+.msmtprc.template
+.netrc.template
 AUTHORS
 COPYING
 README

@@ -4,6 +4,8 @@
 
 # Avoid symbolic link loop
 rm -f ~/bin
+rm -f ~/.i3
+rm -f ~/.vim
 
 for f in $(ls -A | grep -v -E -f setup-exclude.txt)
 do

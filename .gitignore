@@ -3,3 +3,5 @@
 # public. For information about this file see the `inetutils` manual or the
 # `.netrc.template`.
 .netrc
+# You shouldn't version control `.msmtprc` for the same reason fo `.netrc`.
+.msmtprc

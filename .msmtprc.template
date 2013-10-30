@@ -1,0 +1,63 @@
+# NOTE ABOUT PASSWORD
+#
+# If no password is set but one is needed during authentication, msmtp will try
+# to find it. First, if `passwordeval` is set, it will evaluate that command. If
+# `passwordeval` is not set, msmtp will try to find the password in `~/.netrc`.
+# If that fails, it will try to find it in `SYSCONFDIR/netrc` (use `--version`
+# to find out what `SYSCONFDIR` is on your platform). If that fails, it will try
+# to get it from a system specific keyring (if available). If that fails but a
+# controlling terminal is available, msmtp will prompt you for it.
+#
+# The safe way is using `passwordeval` and the easy (but not safe) is using
+# `~/.netrc`.
+
+# NOTE ABOUT CA-CERTIFICATES
+#
+# When enable tls you will need a ca-certificate. The mail server provide
+# the ca-certificate, so you have to download it and save at
+# `/usr/share/ca-certificate/domain/domain.crt`.
+
+# NOTE ABOUT HOW TO TEST
+#
+# Write a file like:
+#
+#     To: <username>@domain.com
+#     From: username@domain.com
+#     Subject: A test
+#
+#     Yadda, yadda, yadda.
+#
+# and save it as `test.mail`.
+#
+# Then execute
+#
+#     $ cat test.mail | msmtp -a default <username>@domain.com
+
+# Accounts will inherit settings from this section
+defaults
+# This command enables or disables SMTP authentication and optionally chooses an
+# authentication method to use.
+auth on
+tls on
+
+# A provider's service
+account provider
+host smtp.provider.example
+
+# A freemail service
+account freemail
+tls_trust_file /usr/share/ca-certificates/domain/domain.crt
+host smtp.freemail.example
+from joe_smith@freemail.example
+user joe.smith
+
+# A gmail address
+account gmail
+tls_trust_file /usr/share/ca-certificates/domain/domain.crt
+host smtp.gmail.com
+port 587
+from username@gmail.com
+user username@gmail.com
+
+# Set a default account
+account default : freemail
