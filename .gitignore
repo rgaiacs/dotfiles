@@ -1,0 +1,5 @@
+# `.netrc` contains login and initialization information used by the auto-login
+# process. You shouldn't version control this file to avoid your passwords goes
+# public. For information about this file see the `inetutils` manual or the
+# `.netrc.template`.
+.netrc
