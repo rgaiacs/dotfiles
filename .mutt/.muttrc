@@ -1,0 +1,60 @@
+# Some places to look for information:
+#
+# * http://www.mutt.org/doc/manual/
+# * https://wiki.debian.org/Mutt
+# * https://wiki.archlinux.org/index.php/mutt
+# * http://mutt.blackfish.org.uk/
+# * http://www.calmar.ws/mutt/
+
+# search for new messages in maildir/MH folders.
+set check_new
+# don't collapse threads with unread mails
+unset collapse_unread
+# put headers in editor when composing messages
+set edit_headers
+# Abort, if message has no subject.
+set abort_nosubject=no
+
+# Sorting
+# sorting the mails in threads
+set sort=threads
+# sorting the threads
+set sort_aux=date
+
+# Do not use mailbox!
+set mbox_type = Maildir
+
+# Shortcuts overview for mutt internal folders
+#
+# ============ ========================= ============ ==============
+# refers to    typical place             mutt-var     shortcut
+# ============ ========================= ============ ==============
+# "inbox"      /var/spool/mail/USER      $spoolfile   "!"
+# $HOME dir    /home/user                no-mutt var  "~" or "$HOME"
+# folders dir  /home/user/mail           $folder      "+" or "="
+# "mbox"       /home/user/mail/received  $mbox        ">"
+# "sent"       /home/user/mail/sent      $record      "<"
+# unfinished   /home/user/mail/postponed $postponed   "+postponed"
+# personal     /home/user/mail/personal               "+personal" 
+# ============ ========================= ============ ==============
+set folder="~/mail/"
+set mbox="~/mail/inbox/"
+set spoolfile="~/mail/inbox/"
+set record="~/mail/sent/"
+set postponed="~/mail/postponed/"
+
+# Default user
+set realname = "Raniere Silva"
+set from=raniere@ime.unicamp.br
+# Others accounts
+macro generic "<esc>1" ":set from=raniere@ime.unicamp.br"
+macro generic "<esc>2" ":set from=raniere@riseup.net"
+macro generic "<esc>3" ":set from=raniere@okfn.org.br"
+
+# Send email (see msmtp manual)
+set sendmail="/usr/bin/msmtp"
+set use_from=yes
+# The  envelope_from=yes  option lets Mutt use the -f option of msmtp. Therefore
+# msmtp chooses the first account that matches the from address you@example.com.
+# If no such account is found, "default" is used.
+set envelope_from=yes

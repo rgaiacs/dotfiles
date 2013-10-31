@@ -15,3 +15,4 @@ done
 
 # .vimrc
 ln -v -f -s ${PWD}/.vim/.vimrc ~/.vimrc;
+ln -v -f -s ${PWD}/.mutt/.muttrc ~/.muttrc;
