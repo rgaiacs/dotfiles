@@ -43,13 +43,30 @@ set spoolfile="~/mail/inbox/"
 set record="~/mail/sent/"
 set postponed="~/mail/postponed/"
 
-# Default user
-set realname = "Raniere Silva"
-set from=raniere@ime.unicamp.br
-# Others accounts
-macro generic "<esc>1" ":set from=raniere@ime.unicamp.br"
-macro generic "<esc>2" ":set from=raniere@riseup.net"
-macro generic "<esc>3" ":set from=raniere@okfn.org.br"
+# Alias and Addressbook
+#
+# This comes from http://www.calmar.ws/mutt/.
+#
+# In the alias file I store all the email address of email list that I'm
+# subscribed. Is easy add a new one editing the file or with a script.
+set alias_file="~/.mutt/mail-list-alias"
+set sort_alias=alias
+set reverse_alias=yes
+source $alias_file
+# For the addressbook I use abook. For query it I have to use Ctrl-t.
+set query_command="abook --mutt-query '%s'"
+macro editor ";" \ct
+# Macros to add new email address
+macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
+macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender address to abook"
+
+# Handle mail lists
+#
+# Mutt has a few nice features for handling mailing lists. In order to take
+# advantage of them, you must specify which addresses belong to mailing lists,
+# and which mailing lists you are subscribed to. Once you have done this, the
+# list-reply function will work for all known lists.
+source ~/.mutt/mail-list-address
 
 # Send email (see msmtp manual)
 set sendmail="/usr/bin/msmtp"
@@ -58,3 +75,12 @@ set use_from=yes
 # msmtp chooses the first account that matches the from address you@example.com.
 # If no such account is found, "default" is used.
 set envelope_from=yes
+
+# Default user
+set realname = "Raniere Silva"
+set from=ra092767@ime.unicamp.br
+# Others accounts
+macro generic "<esc>1" ":set from=ra092767@ime.unicamp.br"
+macro generic "<esc>2" ":set from=raniere@ime.unicamp.br"
+macro generic "<esc>3" ":set from=raniere@riseup.net"
+macro generic "<esc>4" ":set from=raniere@okfn.org.br"
