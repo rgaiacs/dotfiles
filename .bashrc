@@ -231,11 +231,12 @@ unset TEXINPUTS
 unset TEXMFCONFIG
 
 # Alias
+alias g="git"
 alias info='info --vi-keys'
 alias ls='ls --classify --color=auto'
-alias 'ytdl'="youtube-dl -t --restrict-filenames -f 45/44/43/22/20/18"
-alias 'ytbc'="youtube-dl -t --restrict-filenames --write-info-json -f 45/44/43/22/20/18"
-alias 't'="task"
+alias t="task"
+alias ytbc="youtube-dl -t --restrict-filenames --write-info-json -f 45/44/43/22/20/18"
+alias ytdl="youtube-dl -t --restrict-filenames -f 45/44/43/22/20/18"
 
 # tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator

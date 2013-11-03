@@ -2,17 +2,20 @@
 	name = Raniere Silva
 	email = raniere@ime.unicamp.br
 [alias]
-        st = status
+        b = branch
+        c = commit
         ck = checkout
-        lg = log --oneline --graph --decorate
-        lgb = log --oneline --graph --decorate --branches
-        lgm = log --oneline --graph --decorate --merges
-        lga = log --oneline --graph --decorate --all
         d = diff
+        dc = diff --cached
         df = diff --name-only
         dw = diff --word-diff
-        shw = show --word-diff
+        lg = log --oneline --graph --decorate
+        lga = log --oneline --graph --decorate --all
+        lgb = log --oneline --graph --decorate --branches
+        lgm = log --oneline --graph --decorate --merges
         shn = show --name-only
+        shw = show --word-diff
+        st = status
 [core]
 	editor = vim
 	excludesfile = /home/raniere/.gitignore_global
