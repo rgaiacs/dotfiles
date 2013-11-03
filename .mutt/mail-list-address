@@ -3,3 +3,6 @@
 # Use `list` to mark a mail list as known and `subscribe` to mark a mail lista
 # that you have been subscribe.
 subscribe cienciaaberta@lists.okfn.org
+subscribe community-brasil@lists.mozilla.org
+subscribe dev-extensions-br@lists.mozilla.org
+subscribe dev-l10n-pt-br@lists.mozilla.org
