@@ -143,7 +143,7 @@ set Xbrowser "firefox '%s' &"
 %set decode_directory "News"
   
 % Directory where all other files are saved.
-%set save_directory "News"
+set save_directory "news"
 
 % Directory where postponed articles are placed. Please make sure it exists.
 %set postpone_directory "News/postponed"
