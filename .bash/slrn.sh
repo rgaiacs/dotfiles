@@ -1,0 +1,1 @@
+export NNTPSERVER='localhost'
