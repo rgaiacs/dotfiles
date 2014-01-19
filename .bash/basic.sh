@@ -18,8 +18,9 @@
 #
 # OPTIND
 #
-PATH=/usr/local/bin:$PATH
+PATH=/usr/local/bin:/usr/local/sbin:/usr/bin
 PATH=/opt/firefox:$PATH
+PATH=/opt/slimerjs:$PATH
 PATH=/opt/sage-5.9.beta0:$PATH
 PATH=/home/raniere/src/julia:$PATH
 PATH=/home/raniere/.gem/ruby/2.0.0/bin:$PATH

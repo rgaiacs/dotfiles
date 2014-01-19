@@ -137,7 +137,7 @@ set Xbrowser "firefox '%s' &"
 %set failed_posts_file "dead.letter"
 
 % Name of score file.
-%set scorefile "News/Score"
+set scorefile ".slrn/default.score"
 
 % Name of directory where decoded files are placed.
 %set decode_directory "News"
@@ -268,7 +268,7 @@ header_display_format 4 "%F%-5S%-5l:%t%50s %r"
 % You can also match all headers starting with a given string and exclude
 % specific headers by preceding them with "!" (e.g. use "X-,!X-Trace:" to
 % display all the "X-"headers except "X-Trace:").
-%visible_headers "From:,Subject:,Newsgroups:,Followup-To:,Reply-To:"
+visible_headers "From:,Date:,Subject:"
 
 % If non-zero, #v+ and #v- will be interpreted as markers of verbatim lines.
 %set process_verbatim_marks 1

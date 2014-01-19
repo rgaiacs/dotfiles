@@ -1,8 +1,421 @@
-# This is a list of mail lists
+# This is configurations for mail lists
 #
-# Use `list` to mark a mail list as known and `subscribe` to mark a mail lista
+# Use `alias` to remember you the address.
+#
+# Use `list` to mark a mail list as known and `subscribe` to mark a mail list
 # that you have been subscribe.
+#
+# Use `fcc-hook` to save outgoing mail in a mailbox other than $record.
+#
+# Use `send-hook` to to execute arbitrary configuration commands based upon
+# recipients of the message.
+
+alias abook-devel@lists.sourceforge.net
+subscribe abook-devel@lists.sourceforge.net
+fcc-hook abook-devel@lists.sourceforge.net abook
+send-hook abook-devel@lists.sourceforge.net "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias assessment@lists.software-carpentry.org
+subscribe assessment@lists.software-carpentry.org
+fcc-hook assessment@lists.software-carpentry.org software-carpentry
+send-hook assessment@lists.software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias bigdata-brazil@googlegroups.com
+subscribe bigdata-brazil@googlegroups.com
+fcc-hook bigdata-brazil@googlegroups.com bigdata-brazil
+send-hook bigdata-brazil@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias bug-glpk@gnu.org
+subscribe bug-glpk@gnu.org
+fcc-hook bug-glpk@gnu.org glpk
+send-hook bug-glpk@gnu.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias caco-op@googlegroups.com
+subscribe caco-op@googlegroups.com
+fcc-hook caco-op@googlegroups.com caco
+send-hook caco-op@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias cacounicamp@googlegroups.com
+subscribe cacounicamp@googlegroups.com
+fcc-hook cacounicamp@googlegroups.com caco
+send-hook cacounicamp@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias camecc-associados@googlegroups.com
+subscribe camecc-associados@googlegroups.com
+fcc-hook camecc-associados@googlegroups.com camecc
+send-hook camecc-associados@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias cc-community@lists.ibiblio.org
+subscribe cc-community@lists.ibiblio.org
+fcc-hook cc-community@lists.ibiblio.org creatice-commons
+send-hook cc-community@lists.ibiblio.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias cc010_unicamp@googlegroups.com
+subscribe cc010_unicamp@googlegroups.com
+fcc-hook cc010_unicamp@googlegroups.com cc
+send-hook cc010_unicamp@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias check-announce@lists.sourceforge.net
+subscribe check-announce@lists.sourceforge.net
+fcc-hook check-announce@lists.sourceforge.net check
+send-hook check-announce@lists.sourceforge.net "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias check-devel@lists.sourceforge.net
+subscribe check-devel@lists.sourceforge.net
+fcc-hook check-devel@lists.sourceforge.net check
+send-hook check-devel@lists.sourceforge.net "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias check-users@lists.sourceforge.net
+subscribe check-users@lists.sourceforge.net
+fcc-hook check-users@lists.sourceforge.net check
+send-hook check-users@lists.sourceforge.net "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias cienciaaberta@lists.okfn.org
 subscribe cienciaaberta@lists.okfn.org
+fcc-hook cienciaaberta@lists.okfn.org cienciaaberta
+send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias cooperating-activists@mail.eff.org
+subscribe cooperating-activists@mail.eff.org
+fcc-hook cooperating-activists@mail.eff.org eff
+send-hook cooperating-activists@mail.eff.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias cursao-unicamp-2009@googlegroups.com
+subscribe cursao-unicamp-2009@googlegroups.com
+fcc-hook cursao-unicamp-2009@googlegroups.com cursao
+send-hook cursao-unicamp-2009@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias cursao2007@googlegroups.com
+subscribe cursao2007@googlegroups.com
+fcc-hook cursao2007@googlegroups.com cursao
+send-hook cursao2007@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias data@lists.software-carpentry.org
+subscribe data@lists.software-carpentry.org
+fcc-hook data@lists.software-carpentry.org software-carpentry
+send-hook data@lists.software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias df-coordination@documentfreedom.org
+subscribe df-coordination@documentfreedom.org
+fcc-hook df-coordination@documentfreedom.org dfd
+send-hook df-coordination@documentfreedom.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias discuss@freeculture.org
+subscribe discuss@freeculture.org
+fcc-hook discuss@freeculture.org freeculture
+send-hook discuss@freeculture.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias discuss@lists.software-carpentry.org
+subscribe discuss@lists.software-carpentry.org
+fcc-hook discuss@lists.software-carpentry.org software-carpentry
+send-hook discuss@lists.software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias ec09unicamp@googlegroups.com
+subscribe ec09unicamp@googlegroups.com
+fcc-hook ec09unicamp@googlegroups.com ec
+send-hook ec09unicamp@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias edu-sig@python.org
+subscribe edu-sig@python.org
+fcc-hook edu-sig@python.org python
+send-hook edu-sig@python.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias edutex@tug.org
+subscribe edutex@tug.org
+fcc-hook edutex@tug.org latex
+send-hook edutex@tug.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias fisicos-unicamp@googlegroups.com
+subscribe fisicos-unicamp@googlegroups.com
+fcc-hook fisicos-unicamp@googlegroups.com cursao
+send-hook fisicos-unicamp@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias flisol-br@listas.softwarelivre.org
+subscribe flisol-br@listas.softwarelivre.org
+fcc-hook flisol-br@listas.softwarelivre.org flisol
+send-hook flisol-br@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias freemail@listas.softwarelivre.org
+subscribe freemail@listas.softwarelivre.org
+fcc-hook freemail@listas.softwarelivre.org freemail
+send-hook freemail@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias friendica-dev@googlegroups.com
+subscribe friendica-dev@googlegroups.com
+fcc-hook friendica-dev@googlegroups.com friendica
+send-hook friendica-dev@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias friendica@googlegroups.com
+subscribe friendica@googlegroups.com
+fcc-hook friendica@googlegroups.com friendica
+send-hook friendica@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias gits@lists.software-carpentry.org
+subscribe gits@lists.software-carpentry.org
+fcc-hook gits@lists.software-carpentry.org software-carpentry
+send-hook gits@lists.software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias gnu-announce@gnu.org
+subscribe gnu-announce@gnu.org
+fcc-hook gnu-announce@gnu.org gnu
+send-hook gnu-announce@gnu.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias gpsl-unicamp@googlegroups.com
+subscribe gpsl-unicamp@googlegroups.com
+fcc-hook gpsl-unicamp@googlegroups.com gpsl
+send-hook gpsl-unicamp@googlegroups.com "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias help-glpk@gnu.org
+subscribe help-glpk@gnu.org
+fcc-hook help-glpk@gnu.org glpk
+send-hook help-glpk@gnu.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias hsc@listas.tia.mat.br
+subscribe hsc@listas.tia.mat.br
+fcc-hook hsc@listas.tia.mat.br lhc
+send-hook hsc@listas.tia.mat.br "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias info-gnu@gnu.org
+subscribe info-gnu@gnu.org
+fcc-hook info-gnu@gnu.org gnu
+send-hook info-gnu@gnu.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias julia-dev@googlegroups.com
+subscribe julia-dev@googlegroups.com
+fcc-hook julia-dev@googlegroups.com julia
+send-hook julia-dev@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias julia-users@googlegroups.com
+subscribe julia-users@googlegroups.com
+fcc-hook julia-users@googlegroups.com julia
+send-hook julia-users@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias latex2html@tug.org
+subscribe latex2html@tug.org
+fcc-hook latex2html@tug.org latex
+send-hook latex2html@tug.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias latexusersgroup@googlegroups.com
+subscribe latexusersgroup@googlegroups.com
+fcc-hook latexusersgroup@googlegroups.com latex
+send-hook latexusersgroup@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias libreplanet-br-sp@libreplanet.org
+subscribe libreplanet-br-sp@libreplanet.org
+fcc-hook libreplanet-br-sp@libreplanet.org lp-br-sp
+send-hook libreplanet-br-sp@libreplanet.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias libreplanet-dev@libreplanet.org
+subscribe libreplanet-dev@libreplanet.org
+fcc-hook libreplanet-dev@libreplanet.org libreplanet
+send-hook libreplanet-dev@libreplanet.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias libreplanet-discuss@libreplanet.org
+subscribe libreplanet-discuss@libreplanet.org
+fcc-hook libreplanet-discuss@libreplanet.org libreplanet
+send-hook libreplanet-discuss@libreplanet.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias lpoo-imecc@googlegroups.com
+subscribe lpoo-imecc@googlegroups.com
+fcc-hook lpoo-imecc@googlegroups.com lpoo
+send-hook lpoo-imecc@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias lxml@lxml.de
+subscribe lxml@lxml.de
+fcc-hook lxml@lxml.de lxml
+send-hook lxml@lxml.de "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias maintainers@octave.org
+subscribe maintainers@octave.org
+fcc-hook maintainers@octave.org octave
+send-hook maintainers@octave.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias mathjax-dev@googlegroups.com
+subscribe mathjax-dev@googlegroups.com
+fcc-hook mathjax-dev@googlegroups.com mathjax
+send-hook mathjax-dev@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias mathjax-users@googlegroups.com
+subscribe mathjax-users@googlegroups.com
+fcc-hook mathjax-users@googlegroups.com mathjax
+send-hook mathjax-users@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias mz-tecnologia@googlegroups.com
+subscribe mz-tecnologia@googlegroups.com
+fcc-hook mz-tecnologia@googlegroups.com mz
+send-hook mz-tecnologia@googlegroups.com "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias nslcampinas@googlegroups.com
+subscribe nslcampinas@googlegroups.com
+fcc-hook nslcampinas@googlegroups.com flisol
+send-hook nslcampinas@googlegroups.com "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias octave-maintainers@octave.org
+subscribe octave-maintainers@octave.org
+fcc-hook octave-maintainers@octave.org octave
+send-hook octave-maintainers@octave.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias okfn-br@lists.okfn.org
+subscribe okfn-br@lists.okfn.org
+fcc-hook okfn-br@lists.okfn.org okfn
+send-hook okfn-br@lists.okfn.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias open-education@lists.okfn.org
+subscribe open-education@lists.okfn.org
+fcc-hook open-education@lists.okfn.org okfn
+send-hook open-education@lists.okfn.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias open-science-dev@lists.okfn.org
+subscribe open-science-dev@lists.okfn.org
+fcc-hook open-science-dev@lists.okfn.org okfn
+send-hook open-science-dev@lists.okfn.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias open-science@lists.okfn.org
+subscribe open-science@lists.okfn.org
+fcc-hook open-science@lists.okfn.org okfn
+send-hook open-science@lists.okfn.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias psl-brasil@listas.softwarelivre.org
+subscribe psl-brasil@listas.softwarelivre.org
+fcc-hook psl-brasil@listas.softwarelivre.org psl
+send-hook psl-brasil@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias psl-mg@listas.softwarelivre.org
+subscribe psl-mg@listas.softwarelivre.org
+fcc-hook psl-mg@listas.softwarelivre.org psl
+send-hook psl-mg@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias psl-pi@listas.softwarelivre.org
+subscribe psl-pi@listas.softwarelivre.org
+fcc-hook psl-pi@listas.softwarelivre.org psl
+send-hook psl-pi@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias psls-nordeste@listas.softwarelivre.org
+subscribe psls-nordeste@listas.softwarelivre.org
+fcc-hook psls-nordeste@listas.softwarelivre.org psl
+send-hook psls-nordeste@listas.softwarelivre.org "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias python-brasil@googlegroups.com
+subscribe python-brasil@googlegroups.com
+fcc-hook python-brasil@googlegroups.com python
+send-hook python-brasil@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias r2rc-forum@arl.org
+subscribe r2rc-forum@arl.org
+fcc-hook r2rc-forum@arl.org r2rc
+send-hook r2rc-forum@arl.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias rede-adm@googlegroups.com
+subscribe rede-adm@googlegroups.com
+fcc-hook rede-adm@googlegroups.com lpoo
+send-hook rede-adm@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias rede-colaborativa@googlegroups.com
+subscribe rede-colaborativa@googlegroups.com
+fcc-hook rede-colaborativa@googlegroups.com lpoo
+send-hook rede-colaborativa@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-cloud@googlegroups.com
+subscribe sage-cloud@googlegroups.com
+fcc-hook sage-cloud@googlegroups.com sage
+send-hook sage-cloud@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-devel@googlegroups.com
+subscribe sage-devel@googlegroups.com
+fcc-hook sage-devel@googlegroups.com sage
+send-hook sage-devel@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-edu@googlegroups.com
+subscribe sage-edu@googlegroups.com
+fcc-hook sage-edu@googlegroups.com sage
+send-hook sage-edu@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-git@googlegroups.com
+subscribe sage-git@googlegroups.com
+fcc-hook sage-git@googlegroups.com sage
+send-hook sage-git@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-gsoc@googlegroups.com
+subscribe sage-gsoc@googlegroups.com
+fcc-hook sage-gsoc@googlegroups.com sage
+send-hook sage-gsoc@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-notebook@googlegroups.com
+subscribe sage-notebook@googlegroups.com
+fcc-hook sage-notebook@googlegroups.com sage
+send-hook sage-notebook@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-nt@googlegroups.com
+subscribe sage-nt@googlegroups.com
+fcc-hook sage-nt@googlegroups.com sage
+send-hook sage-nt@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-release@googlegroups.com
+subscribe sage-release@googlegroups.com
+fcc-hook sage-release@googlegroups.com sage
+send-hook sage-release@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias sage-support@googlegroups.com
+subscribe sage-support@googlegroups.com
+fcc-hook sage-support@googlegroups.com sage
+send-hook sage-support@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias software-carpentry@software-carpentry.org
+subscribe software-carpentry@software-carpentry.org
+fcc-hook software-carpentry@software-carpentry.org software-carpentry
+send-hook software-carpentry@software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias teaching06@lists.software-carpentry.org
+subscribe teaching06@lists.software-carpentry.org
+fcc-hook teaching06@lists.software-carpentry.org software-carpentry06
+send-hook teaching06@lists.software-carpentry.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias tex4ht@tug.org
+subscribe tex4ht@tug.org
+fcc-hook tex4ht@tug.org latex
+send-hook tex4ht@tug.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias the-open-textbook-federation@googlegroups.com
+subscribe the-open-textbook-federation@googlegroups.com
+fcc-hook the-open-textbook-federation@googlegroups.com open-textbook
+send-hook the-open-textbook-federation@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias tinkerer-dev@googlegroups.com
+subscribe tinkerer-dev@googlegroups.com
+fcc-hook tinkerer-dev@googlegroups.com tinkerer
+send-hook tinkerer-dev@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias usync-dev@lists.usync.cc
+subscribe usync-dev@lists.usync.cc
+fcc-hook usync-dev@lists.usync.cc usync
+send-hook usync-dev@lists.usync.cc "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias vim-latex-devel@lists.sourceforge.net
+subscribe vim-latex-devel@lists.sourceforge.net
+fcc-hook vim-latex-devel@lists.sourceforge.net vim
+send-hook vim-latex-devel@lists.sourceforge.net "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias webwewant@googlegroups.com
+subscribe webwewant@googlegroups.com
+fcc-hook webwewant@googlegroups.com webwewant
+send-hook webwewant@googlegroups.com "set from=raniere@riseup.net realname='Raniere Silva'"
+
+alias community-brasil@lists.mozilla.org
 subscribe community-brasil@lists.mozilla.org
+fcc-hook cienciaaberta@lists.okfn.org mozilla-br
+send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias dev-extensions-br@lists.mozilla.org
 subscribe dev-extensions-br@lists.mozilla.org
+fcc-hook cienciaaberta@lists.okfn.org mozilla-br
+send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias dev-l10n-pt-br@lists.mozilla.org
 subscribe dev-l10n-pt-br@lists.mozilla.org
+fcc-hook cienciaaberta@lists.okfn.org mozilla-br
+send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+
+alias project-latexml@lists.jacobs-university.de
+subscribe project-latexml@lists.jacobs-university.de
+fcc-hook cienciaaberta@lists.okfn.org latex
+send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"

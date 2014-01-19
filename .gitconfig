@@ -7,15 +7,21 @@
         ck = checkout
         d = diff
         dc = diff --cached
-        df = diff --name-only
+        dn = diff --name-only
         dw = diff --word-diff
+        fall = fetch --all
         lg = log --oneline --graph --decorate
         lga = log --oneline --graph --decorate --all
         lgb = log --oneline --graph --decorate --branches
         lgm = log --oneline --graph --decorate --merges
+        rm = clean -f 
+        rmall = clean -fxd 
+        rmrf = clean -fd
         shn = show --name-only
         shw = show --word-diff
+        srm = clean -n 
         st = status
+        sti = status --ignored
 [core]
 	editor = vim
 	excludesfile = /home/raniere/.gitignore_global

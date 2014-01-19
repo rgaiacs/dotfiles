@@ -13,5 +13,9 @@
 #          to position. When used as an output option (before an output
 #          filename), decodes but discards input until the timestamps reach
 #          position. This is slower, but more accurate.
+# -an (output)
+#          Disable audio recording.
+# -vn (output)
+#          Disable video recording.
 
 ffmpeg -i file_in file_out
