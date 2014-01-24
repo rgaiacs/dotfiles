@@ -1,15 +1,10 @@
-#
-# ~/.bashrc
-#
+export SHELL=/usr/bin/zsh
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-PS1='[\u@\h \W]\$ '
-#
-# PS2
-#
-export SHELL=/bin/bash
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+zstyle :compinstall filename '/home/raniere/.zshrc'
 
 # Some bug make it not work with shell expansion
 for f in ~/.bash/basic.sh \
@@ -25,3 +20,11 @@ do
     fi
 done
 
+autoload -Uz compinit
+compinit
+
+autoload -U promptinit
+promptinit
+
+PROMPT="[%n@%M] %~
+%# "

@@ -18,17 +18,13 @@
 #
 # OPTIND
 #
-PATH=/usr/local/bin:/usr/local/sbin:/usr/bin
+PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/core_perl:/usr/bin/site_perl
 PATH=/opt/firefox:$PATH
 PATH=/opt/slimerjs:$PATH
 PATH=/opt/sage-5.9.beta0:$PATH
 PATH=/home/raniere/src/julia:$PATH
 PATH=/home/raniere/.gem/ruby/2.0.0/bin:$PATH
 export PATH=/home/raniere/bin:$PATH
-#
-PS1='[\u@\h \W]\$ '
-#
-# PS2
 
 # Bash Variables
 #
@@ -187,8 +183,6 @@ PS1='[\u@\h \W]\$ '
 # REPLY
 #
 # SECONDS
-#
-export SHELL=/bin/bash
 #
 # SHELLOPTS
 #
