@@ -12,3 +12,4 @@ style = compact
 hgext.mq =
 color = 
 graphlog = 
+purge =

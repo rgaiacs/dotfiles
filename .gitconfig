@@ -1,12 +1,19 @@
 [user]
 	name = Raniere Silva
-	email = raniere@ime.unicamp.br
+	email = raniere@rgaiacs.com
 [alias]
-        b = branch
+        b = branch -v
+        bm = branch --merged
+        brm = branch --delete
         c = commit
         ck = checkout
+        cp = cherry-pick
         d = diff
         dc = diff --cached
+        dcm = diff --cached --minimal
+        dcn = diff --cached --name-only
+        dcw = diff --cached --word-diff
+        dm = diff --minimal
         dn = diff --name-only
         dw = diff --word-diff
         fall = fetch --all
@@ -14,14 +21,26 @@
         lga = log --oneline --graph --decorate --all
         lgb = log --oneline --graph --decorate --branches
         lgm = log --oneline --graph --decorate --merges
-        rm = clean -f 
-        rmall = clean -fxd 
-        rmrf = clean -fd
+        lgf = log --oneline --graph --decorate --flow
+        lgaf = log --oneline --graph --decorate --all --flow
+        lgbf = log --oneline --graph --decorate --branches --flow
+        lgmf = log --oneline --graph --decorate --merges --flow
+        pf = push --force
+        pp = push --prune
+        ppn = push --prune --dry-run
+        prm = push --force --delete
+        rc = clean -f 
+        rcall = clean -fxd 
+        rcrf = clean -fd
+        rv = remote -v
+        shb = show -s
+        shm = show --minimal --ignore-space-at-eol -b -w --ignore-blank-lines
         shn = show --name-only
+        shs = show --summary -M
         shw = show --word-diff
         srm = clean -n 
-        st = status
-        sti = status --ignored
+        st = status -s -b
+        sta = status -s -b --ignored
 [core]
 	editor = vim
 	excludesfile = /home/raniere/.gitignore_global
@@ -31,3 +50,10 @@
 	ui = true
 [color "diff"]
 	whitespace = red reverse
+[push]
+	default = upstream
+[gui]
+[gui]
+	recentrepo = /home/raniere/src/pandoc
+[tag]
+        sort = v:refname

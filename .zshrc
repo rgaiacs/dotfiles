@@ -12,8 +12,7 @@ for f in ~/.bash/basic.sh \
     ~/.bash/x11.sh \
     ~/.bash/latex.sh \
     ~/.bash/slrn.sh \
-    ~/.bash/perl.sh \
-    ~/.bash/valgrant.sh
+    ~/.bash/perl.sh
 do
     if [ -f ${f} ]; then
         source ${f}

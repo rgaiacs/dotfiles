@@ -204,7 +204,7 @@ set save_directory "news"
 % If 10, sort by date with most recent last.
 % If 11, thread then sort by date with most recent last.
 % If 12, use the value of the custom_sort_order variable.
-set sorting_method 10
+set sorting_method 3
 
 % If non-zero, a header with a new subject will start a new thread.
 %set new_subject_breaks_threads 0

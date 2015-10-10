@@ -6,12 +6,29 @@
 # * http://mutt.blackfish.org.uk/
 # * http://www.calmar.ws/mutt/
 
+# Customize the message index display
+#
+# %C
+#     current message number
+# %Z
+#     message status flags
+# %D
+#     date and time of the message in the format specified by ``date_format''
+#     converted to the local time zone
+# %t
+#     `to:' field (recipients)
+# %F
+#     author name, or recipient name if the message is from you
+# %s
+#     subject of the message
+set index_format="%4C %Z %{%b %d} %-15.15F %s"
+
 # search for new messages in maildir/MH folders.
-set check_new
-# don't collapse threads with unread mails
+set check_new=yes
+# collapse threads with unread mails
 unset collapse_unread
 # put headers in editor when composing messages
-set edit_headers
+set edit_headers=yes
 # Abort, if message has no subject.
 set abort_nosubject=no
 # Controls whether you will be asked to confirm moving read messages from your
@@ -20,7 +37,11 @@ set abort_nosubject=no
 set move=no
 # Controls whether or not a copy of the message(s) you are replying to is
 # included in your reply.
-set include
+set include=yes
+# Leave messages as new
+set mark_old=no
+# Notify about new mail, regardless of whether you have visited it recently.
+set mail_check_recent=no
 
 # Dedicate the top 10 lines of your pager view to this view of the index.
 set pager_index_lines=10
@@ -53,8 +74,8 @@ set mbox_type=Maildir
 # personal     /home/user/mail/personal               "+personal" 
 # ============ ========================= ============ ==============
 set folder="~/mail/"
-set mbox="~/mail/inbox/"
-set spoolfile="~/mail/inbox/"
+set mbox="~/mail/spool/"
+set spoolfile="~/mail/spool/"
 # where outgoing messages should be appended
 set record="~/mail/archive/"
 # where save messages when you elect not to send immediately.
@@ -86,6 +107,14 @@ macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
 macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender address to abook"
 # macro index,pager A "<pipe-message>abook --add-email-quiet<return>" "add the sender address to abook"
 
+# Fix email address
+send-hook .* "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+# Fix fcc address. When reply, keep reply on the same folder. When create a new
+# message send to archive.
+#
+# More information: https://www.mail-archive.com/mutt-users@mutt.org/msg29730.html
+reply-hook . set record="^"
+send-hook '! ~Q' 'set record="~/mail/archive/"'
 # Handle mail lists
 #
 # Mutt has a few nice features for handling mailing lists. In order to take
