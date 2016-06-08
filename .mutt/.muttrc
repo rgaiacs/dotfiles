@@ -6,23 +6,6 @@
 # * http://mutt.blackfish.org.uk/
 # * http://www.calmar.ws/mutt/
 
-# Customize the message index display
-#
-# %C
-#     current message number
-# %Z
-#     message status flags
-# %D
-#     date and time of the message in the format specified by ``date_format''
-#     converted to the local time zone
-# %t
-#     `to:' field (recipients)
-# %F
-#     author name, or recipient name if the message is from you
-# %s
-#     subject of the message
-set index_format="%4C %Z %{%b %d} %-15.15F %s"
-
 # search for new messages in maildir/MH folders.
 set check_new=yes
 # collapse threads with unread mails
@@ -56,6 +39,9 @@ ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"
 hdr_order Date From To Cc
+
+# Index
+set index_format="%4C %Z %{%b %d} %-15.15F %s"
 
 # Do not use mailbox!
 set mbox_type=Maildir
@@ -108,7 +94,7 @@ macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender ad
 # macro index,pager A "<pipe-message>abook --add-email-quiet<return>" "add the sender address to abook"
 
 # Fix email address
-send-hook .* "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook .* "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 # Fix fcc address. When reply, keep reply on the same folder. When create a new
 # message send to archive.
 #
@@ -136,13 +122,11 @@ set envelope_from=yes
 
 # Default user
 set realname="Raniere Silva"
-set from=raniere@ime.unicamp.br
-alternates "(r\.gaia\.cs@gmail\.com)|(ra092767@ime\.\unicamp\.br)|(raniere@ime\.unicamp\.br)|(raniere@riseup\.net)"
+set from=raniere@rgaiacs.com
+alternates "(r\.gaia\.cs@gmail\.com)|(ra092767@ime\.\unicamp\.br)|(raniere@ime\.unicamp\.br)|(raniere@riseup\.net)|(raniere@rgaiacs.com)"
 # Others accounts
-macro generic "<esc>1" ":set from=ra092767@ime.unicamp.br"
-macro generic "<esc>2" ":set from=raniere@ime.unicamp.br"
-macro generic "<esc>3" ":set from=raniere@riseup.net"
-macro generic "<esc>4" ":set from=raniere@okfn.org.br"
+macro generic "<esc>1" ":set from=raniere@riseup.net"
+macro generic "<esc>2" ":set from=raniere@rgaiacs.com"
 
 # mailcap
 alternative_order text/plain text/enriched text/html text *

@@ -1,11 +1,14 @@
 [user]
-	name = Raniere Silva
-	email = raniere@rgaiacs.com
+        name = Raniere Silva
+        email = raniere@rgaiacs.com
 [alias]
         b = branch -v
         bm = branch --merged
         brm = branch --delete
         c = commit
+        ca = commit --all
+        caa = commit --all --amend
+        cam = commit --all --message
         ck = checkout
         cp = cherry-pick
         d = diff
@@ -15,22 +18,24 @@
         dcw = diff --cached --word-diff
         dm = diff --minimal
         dn = diff --name-only
+        ds = diff -b
         dw = diff --word-diff
         fall = fetch --all
         lg = log --oneline --graph --decorate
-        lga = log --oneline --graph --decorate --all
-        lgb = log --oneline --graph --decorate --branches
-        lgm = log --oneline --graph --decorate --merges
-        lgf = log --oneline --graph --decorate --flow
+        lga = log --all --decorate --graph --oneline
         lgaf = log --oneline --graph --decorate --all --flow
+        lgb = log --oneline --graph --decorate --branches
         lgbf = log --oneline --graph --decorate --branches --flow
+        lgf = log --oneline --graph --decorate --flow
+        lgm = log --oneline --graph --decorate --merges
         lgmf = log --oneline --graph --decorate --merges --flow
         pf = push --force
         pp = push --prune
         ppn = push --prune --dry-run
         prm = push --force --delete
-        rc = clean -f 
-        rcall = clean -fxd 
+        ra = remote dd
+        rc = clean -f
+        rcall = clean -fxd
         rcrf = clean -fd
         rv = remote -v
         shb = show -s
@@ -38,22 +43,22 @@
         shn = show --name-only
         shs = show --summary -M
         shw = show --word-diff
-        srm = clean -n 
+        srm = clean -n
         st = status -s -b
         sta = status -s -b --ignored
+        a = add
+        i = init
+        p = push --set-upstream
 [core]
-	editor = vim
-	excludesfile = /home/raniere/.gitignore_global
-	whitespace = trailing-space,space-before-tab
-	pager = less -+S
+        editor = vim
+        excludesfile = /home/raniere/.gitignore_global
+        whitespace = trailing-space,space-before-tab
+        pager = less -+S
 [color]
-	ui = true
+        ui = auto
 [color "diff"]
-	whitespace = red reverse
+        whitespace = red reverse
 [push]
-	default = upstream
-[gui]
-[gui]
-	recentrepo = /home/raniere/src/pandoc
+        default = upstream
 [tag]
         sort = v:refname

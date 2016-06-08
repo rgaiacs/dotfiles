@@ -20,6 +20,11 @@ subscribe bigdata-brazil@googlegroups.com
 fcc-hook bigdata-brazil@googlegroups.com =bigdata-brazil
 send-hook bigdata-brazil@googlegroups.com "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
 
+alias polignu@googlegroups.com
+subscribe polignu@googlegroups.com
+fcc-hook polignu@googlegroups.com =polignu
+send-hook polignu@googlegroups.com "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+
 alias bug-glpk@gnu.org
 subscribe bug-glpk@gnu.org
 fcc-hook bug-glpk@gnu.org =glpk
@@ -73,7 +78,7 @@ send-hook rea-lista@googlegroups.com "set from=ra092767@ime.unicamp.br realname=
 alias cienciaaberta cienciaaberta@lists.okfn.org
 subscribe cienciaaberta@lists.okfn.org
 fcc-hook cienciaaberta@lists.okfn.org =cienciaaberta
-send-hook cienciaaberta@lists.okfn.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+send-hook cienciaaberta@lists.okfn.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias cooperating-activists@mail.eff.org
 subscribe cooperating-activists@mail.eff.org
@@ -113,7 +118,7 @@ send-hook data@lists.software-carpentry.org "set from=raniere@ime.unicamp.br rea
 alias swc discuss@lists.software-carpentry.org
 subscribe discuss@lists.software-carpentry.org
 fcc-hook discuss@lists.software-carpentry.org =software-carpentry
-send-hook discuss@lists.software-carpentry.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook discuss@lists.software-carpentry.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias instructors@lists.software-carpentry.org
 subscribe instructors@lists.software-carpentry.org
@@ -123,17 +128,17 @@ send-hook instructors@lists.software-carpentry.org "set from=raniere@ime.unicamp
 alias mentoring@lists.software-carpentry.org
 subscribe mentoring@lists.software-carpentry.org
 fcc-hook mentoring@lists.software-carpentry.org =software-carpentry
-send-hook mentoring@lists.software-carpentry.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook mentoring@lists.software-carpentry.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias fees@lists.software-carpentry.org
 subscribe fees@lists.software-carpentry.org
 fcc-hook fees@lists.software-carpentry.org =software-carpentry
-send-hook fees@lists.software-carpentry.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook fees@lists.software-carpentry.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias board@software-carpentry.org
 subscribe board@software-carpentry.org
 fcc-hook board@software-carpentry.org =software-carpentry
-send-hook board@software-carpentry.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook board@software-carpentry.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias ec09unicamp@googlegroups.com
 subscribe ec09unicamp@googlegroups.com
@@ -528,7 +533,7 @@ send-hook campaign@lists.webwewant.org "set from=raniere@riseup.net realname='Ra
 alias mozilla-br community-brasil@lists.mozilla.org
 subscribe community-brasil@lists.mozilla.org
 fcc-hook community-brasil@lists.mozilla.org =mozilla-br
-send-hook community-brasil@lists.mozilla.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+send-hook community-brasil@lists.mozilla.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias community-building.mozilla.org
 subscribe community-building.mozilla.org
@@ -543,7 +548,7 @@ send-hook mozillians@lists.mozilla.org "set from=raniere@ime.unicamp.br realname
 alias mathml dev-tech-mathml@lists.mozilla.org
 subscribe dev-tech-mathml@lists.mozilla.org
 fcc-hook dev-tech-mathml@lists.mozilla.org =mathml
-send-hook dev-tech-mathml@lists.mozilla.org "set from=ra092767@ime.unicamp.br realname='Raniere Silva'"
+send-hook dev-tech-mathml@lists.mozilla.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias dev-extensions-br@lists.mozilla.org
 subscribe dev-extensions-br@lists.mozilla.org
@@ -578,7 +583,7 @@ send-hook forum-de-cultura-digital-de-campinas@googlegroups.com "set from=ra0927
 alias jovemhacker jovemhacker@lists.libreplanetbr.org 
 subscribe jovemhacker@lists.libreplanetbr.org 
 fcc-hook jovemhacker@lists.libreplanetbr.org =jovemhacker
-send-hook jovemhacker@lists.libreplanetbr.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+send-hook jovemhacker@lists.libreplanetbr.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias mozillascience@mozilla.org
 subscribe mozillascience@mozilla.org
@@ -665,15 +670,15 @@ subscribe dc-discuss@lists.idyll.org
 fcc-hook dc-discuss@lists.idyll.org =data-carpentry
 send-hook dc-discuss@lists.idyll.org "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
 
-alias matplotlib-devel@lists.sourceforge.net
-subscribe matplotlib-devel@lists.sourceforge.net
-fcc-hook matplotlib-devel@lists.sourceforge.net =matplotlib
-send-hook matplotlib-devel@lists.sourceforge.net "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+alias matplotlib-devel@python.org
+subscribe matplotlib-devel@python.org
+fcc-hook matplotlib-devel@python.org =matplotlib
+send-hook matplotlib-devel@python.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
-alias matplotlib-users@lists.sourceforge.net
-subscribe matplotlib-users@lists.sourceforge.net
-fcc-hook matplotlib-usesr@lists.sourceforge.net =matplotlib
-send-hook matplotlib-users@lists.sourceforge.net "set from=raniere@ime.unicamp.br realname='Raniere Silva'"
+alias matplotlib-users@python.org
+subscribe matplotlib-users@python.org
+fcc-hook matplotlib-usesr@python.org =matplotlib
+send-hook matplotlib-users@python.org "set from=raniere@rgaiacs.com realname='Raniere Silva'"
 
 alias numpy-discussion@scipy.org
 subscribe numpy-discussion@scipy.org
