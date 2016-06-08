@@ -1,0 +1,10 @@
+This is vim how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install vim-gnome
+
+The choise of vim-gnome is to enable the xcopy.

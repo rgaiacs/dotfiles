@@ -1,0 +1,58 @@
+This is the newsbeuter how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install newsbeuter
+
+Set up steps
+============
+
+To add feeds to newsbeuter, you can add URLs to the configuration file
+`$HOME/.newsbeuter/urls`. Open the file with your favorite text
+editor and add the URLs, one per line:
+
+    http://rss.cnn.com/rss/cnn_topstories.rss
+    http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml
+
+If you need to add URLs that have restricted access via username/password,
+simply provide the username/password in the following way:
+
+http://username:password@hostname.domain.tld/feed.rss
+
+After add the feeds, init newsbeuter with
+
+    $ newsbeuter
+
+Several aspects of newsbeuter’s behaviour can be configured via a
+configuration file, by default `$HOME/.newsbeuter/config`.
+
+Advanced Features
+=================
+
+Usually, the ~/.newsbeuter/urls file contains one RSS feed URL per line. To
+assign a tag to an RSS feed, simply attach it as a single word, separated by
+blanks such as space or tab. If the tag needs to contain spaces, you must use
+quotes (") around the tag (see example below). An example \~/.newsbeuter/urls
+file may look like this:
+
+    http://blog.fefe.de/rss.xml?html interesting conspiracy news "cool stuff"
+    http://rss.orf.at/news.xml news orf
+    http://www.heise.de/newsticker/heise.rdf news interesting
+
+Get Feed url
+============
+
+I write some Python scripts to get the url for the some sites. You can
+found this scripts at `.newsbeuter` and they are:
+
+#. `newsbeuter-fb.py`: This is a script to get the Facebook's time line
+updates for some profile. The origin of this script are found at
+http://ooiks.com/blog/how-to-2/get-facebook-fans-page-news-feed-rss-feed-atom-feed.
+
+#. `newsbeuter-ytb.py`: This is a script to get the uploads for some
+channel of Youtube. The origin of this script are found at http://www.youtube.com/t/rss_feeds and https://gdata.youtube.com/demo/index.html.
+
+

@@ -1,0 +1,86 @@
+# This variable specifies which editor is used by mutt.
+set editor = "vim"
+
+# The default mailbox type used when creating new folders.
+set mbox_type=Maildir
+
+# If your spool mailbox is in a non-default place where Mutt cannot find it,
+# you can specify its location with this variable. Mutt will automatically set
+# this variable to the value of the environment variable $MAIL if it is not
+# set.
+# The default value is /var/mail/user_name.
+set spoolfile="~/mail/spool"
+
+# This specifies the folder into which read mail in your `` $spoolfile''
+# folder will be appended.
+set mbox="~/mail/mbox"
+
+# Specifies the default location of your mailboxes.
+set folder="~/mail/"
+# A regular expression used in the file browser, optionally preceded by the
+# not operator ``!''. Only files whose names match this mask will be shown.
+# The match is always case-sensitive.
+set mask="!^\\.[^.]"
+# This specifies the file into which your outgoing messages should be
+# appended.
+set record="+sent"
+# Mutt allows you to indefinitely `` postpone sending a message'' which you
+# are editing. When you choose to postpone a message, Mutt saves it in the
+# mailbox specified by this variable.
+set postponed="+drafts"
+
+# This command specifies folders which can receive mail and which will be
+# checked for new messages. By default, the main menu status bar displays how
+# many of these folders have new messages.
+mailboxes ! + `\
+for file in ~/mail/*; do \
+box=$(basename "$file"); \
+if [ ! "$box" = '.' -a ! "$box" = '..' -a ! "$box" = '.customflags' \
+-a ! "$box" = '.subscriptions' ]; then \
+echo -n "\"+$box\" "; \
+fi; \
+done`
+
+# Basic config, you can leave this as is
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+# This variable specifies the file where the certificates you trust are saved. 
+set certificate_file=~/.mutt/certificates
+# Controls whether you will be asked to confirm moving read messages from your
+# spool mailbox to your `` $mbox'' mailbox, or as a result of a `` mbox-hook''
+# command.
+set move = no
+# Controls whether or not a copy of the message(s) you are replying to is
+# included in your reply.
+set include
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
+set auto_tag = yes
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+hdr_order Date From To Cc
+alternative_order text/plain text/html *
+auto_view text/html
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop 
+
+# This specifies the command that mutt will use to make external address
+# queries. The string should contain a %s, which will be substituted with the
+# query string the user types.
+set query_command="abook --mutt-query '%s'"
+macro index,pager A "abook --add-email-quiet" "add the sender address to abook"
+
+# This is for msmtp
+set sendmail="/usr/bin/msmtp"
+set use_from=yes
+set envelope_from=yes
+# Macro to use msmtp
+macro generic "<esc>1" ":set from=user01@host01 realname='User'"
+macro generic "<esc>2" ":set from=user02@host02 realname='User'"
+
+# you are subscribed to a mailing list
+source ~/.mutt/subscribed
+# it is a list but you are not subscribed too
+source ~/.mutt/listed

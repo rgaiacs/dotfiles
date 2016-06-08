@@ -1,0 +1,45 @@
+This is the fetchmail how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install fetchmail
+
+Testing certificates
+====================
+
+To check if you have the certificates you need use
+
+    $ openssl s_client -connect host:port
+
+Install certificates
+--------------------
+
+These steps are taken from /usr/share/doc/ca-certificates/README.Debian.
+
+#. Put CA certificates in /usr/local/share/ca-certificates/, and NOT the
+   system directory /usr/share/ca-certificates/.
+
+#. Run update-ca-certificates to update the compiled list of
+   CA certificates.
+
+Set up steps
+============
+
+If the program fetchmailconf is available, it will assist you in setting up
+and editing a fetchmailrc configuration. Or you can edit `.fetchmailrc.conf`.
+
+After configure fetchmail will be good to test if it work as you wish:
+
+    $ fetchmail -d0 -v
+
+
+For lauch fetchmail
+
+    $ fetchmail
+
+and for kill the daemon
+
+    $ fetchmail --quit

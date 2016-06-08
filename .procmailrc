@@ -1,5 +1,4 @@
 PATH=/bin:/usr/bin:/usr/bin
-VERBOSE=on
 
 # MAILDIR is the folder where the emails will be store.
 # Procmail can't create the directory, you must do that.

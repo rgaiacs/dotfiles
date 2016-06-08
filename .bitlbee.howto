@@ -1,0 +1,79 @@
+This is the bitbee how to.
+
+Instalation
+===========
+
+You can use ::
+
+    # apt-get install bitlbee
+
+To see if the bitlbee server are running ::
+
+    $ ps aux | grep bitlbee
+
+and look for a line like ::
+
+    bitlbee   3642  0.0  0.0  54636  1272 ?        Ss   11:14   0:00 /usr/sbin/bitlbee -p 6667 -P /var/run/bitlbee.pid -F
+
+Connecting
+==========
+
+In your IRC client ::
+
+    /connect localhost
+
+To get help ::
+
+    help
+
+The follow information are from [2]_, [3]_ and [4]_.
+
+Configurate
+===========
+
+First register to identify yourself and protect your account information ::
+
+    register <password>
+
+After register, add accounts ::
+
+    account add jabber bradm@jabber.org pass
+
+To check the accounts ::
+
+    account list
+
+To connect to an account ::
+
+    account on 1
+
+and for all accounts ::
+
+    account on
+
+To disconnect ::
+
+    account off
+
+Manage
+======
+
+To add users ::
+
+    add <account> <user>
+
+To rename user ::
+
+    rename <username_old> <username_new>
+
+To view your buddy list ::
+
+    blist all
+
+References
+==========
+
+.. [1] http://www.bitlbee.org/main.php/news.r.html
+.. [2] http://quark.humbug.org.au/publications/internet/bitlbee.pdf
+.. [3] http://en.linuxreviews.org/Bitlbee
+.. [4] http://princessleia.com/bitlbee.php

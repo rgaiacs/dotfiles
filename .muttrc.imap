@@ -1,0 +1,67 @@
+# Change the following line to a different editor you prefer.
+set editor = "vim"
+
+# Account Hooks
+account-hook . 'unset imap_user imap_pass'
+account-hook 'imaps://host:993/' "\
+              set imap_user=user01 imap_pass=pass01"
+account-hook 'imaps://host:993/' "\
+              set imap_user=user02 imap_pass=pass02"
+
+# Folders, mailboxes and folder hooks
+# Setup for user1:
+set folder="imaps://host/"
+mailboxes =INBOX
+folder-hook 'imaps://host' " \
+        set     folder=imaps://host/ \
+		spoolfile=+INBOX \
+                postponed=+Drafts \
+                record=+'Sent Mail' \
+                smtp_url=smtps://host \
+                smtp_pass=pass01 \
+                from='User <user01@host> ' \
+                realname='User' "
+
+set folder="imaps://host/"
+mailboxes =INBOX
+folder-hook 'imaps://host' " \
+        set     folder=imaps://host/ \
+		spoolfile=+INBOX \
+                postponed=+Drafts \
+                record=+'Sent Mail' \
+                smtp_url=smtps://host \
+                smtp_pass=pass01 \
+                from='User <user01@host> ' \
+                realname='User' "
+
+# For Gmail
+# set folder="imaps://imap.gmail.com:993/"
+# mailboxes = +INBOX =[Gmail]/Drafts =[Gmail]/'Sent Mail' =[Gmail]/Spam =[Gmail]/Trash
+# folder-hook 'imaps://imap.gmail.com:993' " \
+# 	set	folder=imaps://imap.gmail.com:993/ \
+# 		spoolfile=+INBOX \
+#                 postponed=+[Gmail]/Drafts \
+#                 record=+[Gmail]/'Sent Mail' \
+#                 smtp_url=smtp://user@smtp.gmail.com:587/ \
+#                 smtp_pass=pass \
+#                 from='User <user@gmail.com> ' \
+#                 realname='User' "
+
+# Basic config, you can leave this as is
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set move = no
+set include
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
+set auto_tag = yes
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+hdr_order Date From To Cc
+alternative_order text/plain text/html *
+auto_view text/html
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop 

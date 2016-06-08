@@ -1,0 +1,34 @@
+This is the slrn how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install slrn
+
+Set up steps
+============
+
+Suggest to you take a look at http://www.slrn.org/docs/FIRST_STEPS.html.
+
+Choosing a newsserver
+---------------------
+
+Add the following line
+
+    NNTPSERVER='server_name' && export NNTPSERVER
+
+into your `.bashrc` and replace `server_name` by any item of the list below.
+
+#. news.gmane.org
+
+Connecting for the first time
+-----------------------------
+
+In the first time you must use
+
+    $ slrn --create
+    $ slrn -d
+
+[1] http://alcor.concordia.ca/topics/netnews/slrn/intro/

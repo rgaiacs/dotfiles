@@ -1,0 +1,8 @@
+This is the tmux how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install tmux

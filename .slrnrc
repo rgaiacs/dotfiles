@@ -18,7 +18,7 @@ set realname "Raniere Silva"
 
 % Set this if you want replies to your articles to go to a address different
 % from the one in "From:".
-%set replyto  "John Doe <jdoe@something.com>"
+set replyto  "Raniere Silva <ra092767@ime.unicamp.br>"
 
 % What to put into the "Organization:" header line.
 %set organization "Doe inc."
@@ -268,7 +268,7 @@ header_display_format 4 "%F%-5S%-5l:%t%50s %r"
 % You can also match all headers starting with a given string and exclude
 % specific headers by preceding them with "!" (e.g. use "X-,!X-Trace:" to
 % display all the "X-"headers except "X-Trace:").
-visible_headers "From:,Date:,Subject:"
+%visible_headers "From:,Subject:,Newsgroups:,Followup-To:,Reply-To:"
 
 % If non-zero, #v+ and #v- will be interpreted as markers of verbatim lines.
 %set process_verbatim_marks 1

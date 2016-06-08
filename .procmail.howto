@@ -1,0 +1,13 @@
+This is the procmail how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install procmaill
+
+Set up steps
+============
+
+The configuration file has to be called ~/procmailrc.

@@ -1,0 +1,44 @@
+This is the msmtprc how to.
+
+Instalation
+===========
+
+You can use
+
+    # apt-get install msmtp
+
+Set up steps
+============
+
+Add the following lines in `.muttrc`
+
+    set sendmail="/path/to/msmtp"
+    set use_from=yes
+    set envelope_from=yes
+    macro generic "<esc>1" ":set from=john@example.com realname='John Doe'"
+    macro generic "<esc>2" ":set from=j.doe@work.com realname='J. Doe'"
+
+And the following in the `.msmtprc`
+
+    # example.com - home account
+    account example
+    host mail.example.com
+    from john@example.com
+    auth off
+    
+    # work.com - work account
+    account work
+    host smtp.work.com
+    from j.doe@work.com
+    auth on
+    user johndoe
+    password s3cr3t
+    
+    # Set a default account to use
+    account default : example
+
+The `.msmtprc` file must have rw permission only to the user.
+
+To test if the configuration is correct
+
+    $ echo -e "Subject: Test Mail\r\n\r\nThis is a test mail" |msmtp --debug --from=john@example.com -t j.doe@work.com
