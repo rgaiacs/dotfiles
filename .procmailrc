@@ -1,0 +1,45 @@
+PATH=/bin:/usr/bin:/usr/bin
+VERBOSE=on
+
+# MAILDIR is the folder where the emails will be store.
+# Procmail can't create the directory, you must do that.
+MAILDIR=$HOME/maildir
+
+# LOGFILE is the file where the log will be keeped.
+LOGFILE=$HOME/.procmail.log
+
+# Recipes for mbox folders
+#
+# If you have MAILDIR set to $HOME/mail, the following recipe will save any
+# message with "Testing" in the Subject: line to $HOME/mail/testing:
+# 
+# :0:
+# * ^Subject:.*\<testing
+# testing
+# 
+# Recipes for Maildir folders
+#
+# If you have MAILDIR set to $HOME/mail, the following recipe will save any
+# message with "Testing" in the Subject: line to $HOME/mail/testing:
+# 
+# :0:
+# * ^Subject:.*\<testing
+# testing/
+# 
+# Note that the foldername has to and end with a slash.
+
+DEFAULT=$MAILDIR/spool/
+
+# Examples of filters
+
+# Filter by subject
+# :0:
+# * ^Subject.*Backup.*
+# in-backups/
+
+# Filter by sender
+# :0:
+# * ^Sender.*linux-br.*conectiva.*
+# linux-brasil/
+
+INCLUDERC=$HOME/.procmail/subscribe

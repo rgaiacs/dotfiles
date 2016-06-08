@@ -1,0 +1,731 @@
+:0:
+* ^(From|To|Cc).*user@rss2email.invalid
+rss2email/
+
+:0:
+* ^(From|To|Cc).*mathml
+mathml/
+
+:0:
+* ^(List-Id:).*info-gnu.gnu.org
+gnu/
+
+:0:
+* ^(List-Id:).*gnu-announce.gnu.org
+gnu/
+
+:0:
+* ^List-ID:.*linuxacessivel.googlegroups.com
+gnu-acessivel/
+
+:0:
+* ^(List-Id:).*discuss.freeculture.org
+freeculture/
+
+:0:
+* ^(List-Id:).*polignu.googlegroups.com
+polignu/
+
+:0:
+* ^(List-Id:).*libreplanet-discuss.libreplanet.org
+libreplanet/
+
+:0:
+* ^(List-Id:).*libreplanet-dev.libreplanet.org
+libreplanet/
+
+:0:
+* ^(List-Id:).*libreplanet-br-sp.libreplanet.org
+lp-br-sp/
+
+:0:
+* X-Gitlab-Project: material
+jovemhacker/
+
+:0:
+* ^(List-Id:).*jovemhacker
+jovemhacker/
+
+:0:
+* ^(List-Id:).*lists.libreplanetbr.org
+lp-br-sp/
+
+:0:
+* ^(List-Id:).*libreplanet-br-es.libreplanet.org
+lp-br-es/
+
+:0:
+* ^(List-Id:).*slrj.googlegroups.com
+slrj/
+
+:0:
+* ^(List-Id:).*psl-brasil.listas.softwarelivre.org
+psl-brasil/
+
+:0:
+* ^(List-Id:).*psls-nordeste.listas.softwarelivre.org
+psls-nordeste/
+
+:0:
+* ^(List-Id:).*psl-mg.listas.softwarelivre.org
+psl-mg/
+
+:0:
+* ^(List-Id:).*psl-pi.listas.softwarelivre.org
+psl-pi/
+
+:0:
+* ^(List-Id:).*flisol-br.listas.softwarelivre.org
+flisol/
+
+:0:
+* ^(List-Id:).*gt-educacao.listas.softwarelivre.org
+psl-educacao/
+
+:0:
+* ^(List-Id:).*freemail.listas.softwarelivre.org
+freemail/
+
+:0:
+* ^(List-ID:).*udslcampinas.googlegroups.com
+nslcampinas/
+
+:0:
+* ^(List-ID:).*nslcampinas.googlegroups.com
+nslcampinas/
+
+:0:
+* ^(List-ID:).*gpsl-unicamp.googlegroups.com
+gpsl/
+
+:0:
+* ^(List-Id:).*teresinahc.googlegroups.com
+thc/
+
+:0:
+* ^(List-Id:).*hsc-tia.mat.br
+lhc/
+
+:0:
+* ^(List-Id:).*associados-lhc.net.br
+lhc/
+
+:0:
+* ^(List-ID:).*hackerspacesp.googlegroups.com
+garoa/
+
+:0:
+* ^(List-Id:).*cc-community.lists.ibiblio.org
+creative_commons/
+
+:0:
+* ^List-ID:.*rea-lista.googlegroups.com
+rea/
+
+:0:
+* ^List-Id:.*campaign-webwewant.lists.webwewant.org
+webwewant/
+
+:0:
+* ^List-Id:.*thackday.googlegroups.com
+transparencia-hacker/
+
+:0:
+* ^List-Id:.*cienciaaberta.lists.okfn.org
+cienciaaberta/
+
+:0:
+* ^List-Id:.*discuss.okfn.org
+okfn/
+
+:0:
+* ^List-Id:.*lists.okfn.org
+okfn/
+
+:0:
+* ^List-ID:.*okfn.github.com
+okfn/
+
+:0:
+* ^List-ID:.*xonsh.scopatz.github.com
+xonsh/
+
+:0:
+* ^(List-Id:).*planning-pt.sf-day.org
+freedom-days/
+
+:0:
+* ^(List-Id:).*efd-discuss.sf-day.org
+freedom-days/
+
+:0:
+* ^(List-Id:).*contact.documentfreedom.org
+dfd/
+
+:0:
+* ^(List-Id:).*df-coordination.documentfreedom.org
+dfd/
+
+:0:
+* ^(List-Id:).*cooperating-activists.mail.eff.org
+eff/
+
+:0:
+* ^(List-ID:).*the-open-textbook-federation.googlegroups.com
+open-textbook/
+
+:0:
+* ^(List-Id:).*vim-latex-devel.lists.sourceforge.net
+vim/
+
+:0:
+* ^(List-Id:).*edutex.tug.org
+tex/
+
+:0:
+* ^(List-Id:).*project-latexml.lists.jacobs-university.de
+latexml/
+
+:0:
+* ^(List-Id:).*LaTeXML.brucemiller.github.com
+latexml/
+
+:0:
+* ^(List-Id:).*latex2html.tug.org
+tex/
+
+:0:
+* ^(List-Id:).*tex4ht.tug.org
+tex/
+
+:0:
+* ^(List-ID:).*latexusersgroup.googlegroups.com
+tex/
+
+:0:
+* ^(List-ID:).*mathjax-dev.googlegroups.com
+mathjax/
+
+:0:
+* ^(List-ID:).*mathjax-users.googlegroups.com
+mathjax/
+
+:0:
+* ^List-ID:.*julia-jobs.googlegroups.com
+julia/
+
+:0:
+* ^List-ID:.*julia-opt.googlegroups.com
+julia/
+
+:0:
+* ^List-ID:.*julia-users.googlegroups.com
+julia/
+
+:0:
+* ^List-ID:.*julia-dev.googlegroups.com
+julia/
+
+:0:
+* ^List-Id:.*ipython-user.scipy.org
+ipython/
+
+:0:
+* ^List-Id:.*ipython-dev.scipy.org
+ipython/
+
+:0:
+* ^List-Id:.*jupyter.googlegroups.com
+jupyter/
+
+:0:
+* ^List-Id:.*jupyter-education.googlegroups.com
+jupyter/
+
+:0:
+* ^List-Id:.*scipyla
+scipyla/
+
+:0:
+* ^List-Id:.*scipyla2015.googlegroups.com
+scipyla/
+
+:0:
+* ^List-Id:.*scipy-latinamerica/scipyla2015
+scipyla/
+
+:0:
+* ^(List-Id:).*edu-sig.python.org
+python/
+
+:0:
+* ^(List-ID:).*python-brasil.googlegroups.com
+python/
+
+:0:
+* ^(List-ID:).*lxml.lxml.de
+lxml/
+
+:0:
+* ^(List-ID:).*sage-devel.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-support.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-announce.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-release.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-notebook.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-edu.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-nt.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-gsoc.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-git.googlegroups.com
+sage/
+
+:0:
+* ^(List-ID:).*sage-cloud.googlegroups.com
+sage/
+
+:0:
+* ^(List-Id:).*octave-maintainers.gnu.org
+octave/
+
+:0:
+* ^(List-Id:).*help-glpk.gnu.org
+glpk/
+
+:0:
+* ^(List-Id:).*bug-glpk.gnu.org
+glpk/
+
+:0:
+* ^(List-Id:).*abook-devel.lists.sourceforge.net
+abook/
+
+:0:
+* ^(List-ID:).*friendica.googlegroups.com
+friendica/
+
+:0:
+* ^(List-ID:).*friendica-dev.googlegroups.com
+friendica/
+
+:0:
+* ^(List-ID:).*cacounicamp.googlegroups.com
+caco/
+
+:0:
+* ^(List-ID:).*caco-op.googlegroups.com
+caco/
+
+:0:
+* ^(List-ID:).*camecc-associados.googlegroups.com
+camecc/
+
+:0:
+* ^(List-ID:).*cursao-unicamp-2009.googlegroups.com
+cursao/
+
+:0:
+* ^(List-ID:).*fisicos-unicamp.googlegroups.com
+cursao/
+
+:0:
+* ^(List-ID:).*cc010_unicamp.googlegroups.com
+cc/
+
+:0:
+* ^(List-ID:).*cc013_unicamp.googlegroups.com
+cc/
+
+:0:
+* ^(List-ID:).*lpoo-imecc.googlegroups.com
+lpoo/
+
+:0:
+* ^(List-ID:).*rede-colaborativa.googlegroups.com
+lpoo-rc/
+
+:0:
+* ^(List-ID:).*rede-adm.googlegroups.com
+lpoo-rc/
+
+:0:
+* ^(List-ID:).*bigdata-brazil.googlegroups.com
+bigdata/
+
+:0:
+* ^(List-Id:).*check-devel.lists.sourceforge.net
+check/
+
+:0:
+* ^(List-Id:).*check-announce.lists.sourceforge.net
+check/
+
+:0:
+* ^(List-Id:).*check-users.lists.sourceforge.net
+check/
+
+:0:
+* ^(List-ID:).*tinkerer-dev.googlegroups.com
+tinkerer/
+
+:0:
+* ^(List-Id:).*usync-dev.lists.usync.cc
+usync/
+
+:0:
+* ^List-Id:.*progit.github.com
+progit/
+
+:0:
+* ^List-Id:.*teaching06.lists.software-carpentry.org
+software-carpentry06/
+
+:0:
+* ^List-Id:.*software-carpentry.org
+software-carpentry/
+
+:0:
+* ^List-Id:.*scitech-hackingscience.org
+hacksci/
+
+:0:
+* List-ID:.*forum-de-cultura-digital-de-campinas.googlegroups.com
+ccdcps/
+
+:0:
+* List-ID:.*jovemhacker.googlegroups.com
+jovemhacker/
+
+:0:
+* List-Id:.*pcx-dev-l.listas.unicamp.br
+pcx-dev/
+
+:0:
+* List-Id:.*modelo-latex-l.listas.unicamp.br
+modelo-latex/
+
+:0:
+* List-Id:.*mozillians.lists.mozilla.org
+mozilla/
+
+:0:
+* List-Id:.*webmaker.lists.mozilla.org
+mozilla-webmaker/
+
+:0:
+* List-Id:.*webmaker-br.lists.mozilla.org
+mozilla-webmaker/
+
+:0:
+* List-Id:.*community-building.mozilla.org
+mozilla-community/
+
+:0:
+* List-Id:.*dev-webapi.lists.mozilla.org
+mozilla-dev-webapi/
+
+:0:
+* List-Id:.*dev-gaia.lists.mozilla.org
+mozilla-dev-gaia/
+
+:0:
+* List-Id:.*dev-fxos.lists.mozilla.org
+mozilla-dev-fxos/
+
+:0:
+* List-Id:.*dev-b2g.lists.mozilla.org
+mozilla-dev-b2g/
+
+:0:
+* List-Id:.*dev-tech-mathml.lists.mozilla.org
+mathml/
+
+:0:
+* List-Id:.*community-brasil.lists.mozilla.org
+mozilla-br/
+
+:0:
+* ^(List-Id):.*brazil.communities.discourse.mozilla-community.org
+mozilla-br/
+
+:0:
+* ^(List-Id):.*discourse.mozilla-community.org
+mozilla-discourse/
+
+:0:
+* List-Id:.*r2rc-forum.arl.org
+r2rc/
+
+:0:
+* List-Id:.*opencon-forum.googlegroups.com
+opencon/
+
+:0:
+* List-Id:.*opencon-discussion-list.googlegroups.com
+opencon/
+
+:0:
+* List-Id:.*-br.lists.mozilla.org
+mozilla-br/
+
+:0:
+* List-Id:.*fsf-community-team.gnu.org
+fsf/
+
+:0:
+* List-Id:.*discusion.fsfla.org
+fsfla/
+
+:0:
+* List-Id:.*mozillascience.mozilla.org
+mozilla-science/
+
+:0:
+* List-Id:.*swcarpentry.github.com
+software-carpentry/
+
+:0:
+* List-Id:.*datacarpentry.github.com
+data-carpentry/
+
+:0:
+* List-Id:.*mozillascience.github.com
+mozilla-science/
+
+:0:
+* List-Id:.*tent.io.tent.github.com
+tentio/
+
+:0:
+* List-Id:.*gaia.mozilla-b2g.github.com
+mozilla-dev-gaia/
+
+:0:
+* List-Id:.*beets.sampsyo.github.com
+beets/
+
+:0:
+* List-ID:.*google-summer-of-code.*.googlegroups.com
+gsoc/
+
+:0:
+* X-Bugzilla-Component: MathML
+mathml/
+
+:0:
+* X-Bugzilla-Component: SVG
+mozilla-dev-svg/
+
+:0:
+* X-Bugzilla-Component: Editor
+mozilla-dev-editor/
+
+:0:
+* X-Bugzilla-Component: Drag and Drop
+mozilla-dev-dnd/
+
+:0:
+* X-Bugzilla-Component: Firefox OS
+mozilla-dev-ffos/
+
+:0:
+* X-Bugzilla-Product: Firefox OS
+mozilla-dev-ffos/
+
+:0:
+* ^(List-Id):.*commonmark.org
+commonmark/
+
+:0:
+* ^List-ID:.*pandoc-discuss.googlegroups.com
+pandoc/
+
+:0:
+* ^List-ID:.*pandoc-announce.googlegroups.com
+pandoc/
+
+:0:
+* List-Id:.*pandoc.jgm.github.com
+pandoc/
+
+:0:
+* List-Id:.*pandoc-templates.jgm.github.com
+pandoc/
+
+:0:
+* List-Id:.*gitit.jgm.github.com
+gitit/
+
+:0:
+* List-Id:.*CommonMark.jgm.github.com
+commonmark/
+
+:0:
+* List-Id:.*wiki-node.fedwiki.github.com
+fedwiki/
+
+:0:
+* List-Id:.*Smallest-Federated-Wiki.WardCunningham.github.com
+fedwiki/
+
+:0:
+* List-Id:.*wikimedia-l.lists.wikimedia.org
+wikimedia/
+
+:0:
+* List-Id:.*wikimediabr-l.lists.wikimedia.org
+wikimedia/
+
+:0:
+* List-Id:.*education.lists.wikimedia.org
+wikimedia/
+
+:0:
+* List-Id:.*educacao-br.lists.wikimedia.org
+wikimedia/
+
+:0:
+* List-Id:.*astropy.scipy.org
+astropy/
+
+:0:
+* ^List-ID:.*astropy-dev.googlegroups.com
+astropy/
+
+:0:
+* ^List-ID:.*cython-users.googlegroups.com
+cython/
+
+:0:
+* ^List-ID:.*cython-devel.python.org
+cython/
+
+:0:
+* ^List-ID:.*dc-discuss.lists.idyll.org
+data-carpentry/
+
+:0:
+* ^List-ID:.*matplotlib-devel.python.org
+matplotlib/
+
+:0:
+* ^List-ID:.*matplotlib-users.python.org
+matplotlib/
+
+:0:
+* ^List-ID:.*matplotlib-devel.lists.sourceforge.net
+matplotlib/
+
+:0:
+* ^List-ID:.*matplotlib-users.lists.sourceforge.net
+matplotlib/
+
+:0:
+* ^List-ID:.*numpy-discussion.scipy.org
+numpy/
+
+:0:
+* ^List-ID:.*scipy-user.scipy.org
+scipy/
+
+:0:
+* ^List-ID:.*scipy-dev.scipy.org
+scipy/
+
+:0:
+* ^List-ID:.*pytables-users.googlegroups.com
+pytables/
+
+:0:
+* ^List-ID:.*pytables-dev.googlegroups.com
+pytables/
+
+:0:
+* ^List-ID:.*pythonxy.googlegroups.com
+pythonxy/
+
+:0:
+* ^List-ID:.*pytables-dev.googlegroups.com
+pytables/
+
+:0:
+* ^List-ID:.*spyderlib.googlegroups.com
+spyder/
+
+:0:
+* ^List-ID:.*pystatsmodels.googlegroups.com
+statsmodels/
+
+:0:
+* ^List-ID:.*sympy.googlegroups.com
+sympy/
+
+:0:
+* ^List-ID:.*theano-users.googlegroups.com
+theano/
+
+:0:
+* ^List-ID:.*theano-dev.googlegroups.com
+theano/
+
+:0:
+* ^List-ID:.*pydata.googlegroups.com
+pandas/
+
+:0:
+* ^List-ID:.*scikit-image.googlegroups.com
+scikit-image/
+
+:0:
+* ^List-ID:.*scikit-learn-general.lists.sourceforge.net
+scikit-learn/
+
+:0:
+* ^List-ID:.*yt-users-spacepope.org
+yt/
+
+:0:
+* ^List-ID:.*userops.mediagoblin.org
+mediagoblin/
+
+:0:
+* ^List-ID:.*h.hypothesis.github.com
+hypothesis/
+
+:0:
+* ^List-ID:.*bokeh.bokeh.github.com
+bokeh/
+
+:0:
+* ^List-ID:.*ctsunicamp.googlegroups.com
+ctsunicamp/
+
+:0:
+* ^List-ID:.*unidos-da-jesuscracia.googlegroups.com
+jesuscracia/
+
+:0:
+* ^List-ID:.*bioinfo-meetings
+bioinfo-araras/
